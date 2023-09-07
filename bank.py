@@ -1,7 +1,7 @@
-input = input("Greeting: ").lower()
-if input == "hello":
+greeting = input("Greeting: ").lower()
+if greeting == "hello":
     print("$0")
-elif input[0] == "h":
+elif greeting.startswith("h"):
      print("$20")
 else:
     print("$100")
