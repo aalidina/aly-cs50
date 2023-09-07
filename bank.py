@@ -1,3 +1,7 @@
 input = input("Greeting:").lower()
-if input == "hellow"
-    print("$100)
+if input == "hello":
+    print("$0)
+elif:
+    input[0] == "h"
+else:
+    print("$100")
