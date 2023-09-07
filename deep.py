@@ -1,1 +1,1 @@
-input = int(input("What's x? "))
+input = int(input("What is the answer to the Great Question of Life, the Universe and Everything, outputting "))
