@@ -1,4 +1,4 @@
-input = input("Greeting:").lower()
+input = input("Greeting: ").lower()
 if input == "hello":
     print("$0")
 elif input[0] == "h":
