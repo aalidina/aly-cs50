@@ -1,10 +1,8 @@
 interpreter = (input("Expression: " ).split(" ")
 
-x = int
-y = ["/", "-", "+", "*" ]
-z = int
+x, y, z = calculator
 
-if y[0] in interpreter:
+if y == /:
     print( x / z)
 elif y[1] in interpreter:
     print(x - z)
