@@ -1,4 +1,4 @@
-interpreter = int(input("Expression: " ))
+interpreter = (input("Expression: " ).split(" ")
 
 x = int
 y = ["/", "-", "+", "*" ]
