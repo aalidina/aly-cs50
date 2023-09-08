@@ -3,7 +3,7 @@ interpreter = input("Expression: " ).split(" ")
 x, y, z = interpreter
 
 a = float(x)
-b = float(b)
+b = float(z)
 
 if y == "+":
     print(a + b)
