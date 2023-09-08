@@ -2,8 +2,11 @@ interpreter = (input("Expression: " ).split(" ")
 
 x, y, z = calculator
 
-if y == /:
-    print( x / z)
+a = float(x)
+b = float(b)
+
+if y == +:
+    print(a + b)
 elif y[1] in interpreter:
     print(x - z)
 elif y[2] in interpreter:
