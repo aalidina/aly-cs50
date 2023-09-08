@@ -1,7 +1,13 @@
 interpreter = input("Expression: " )
 
 x = int
-y = "/"
+y = ["/", "-", "+", "*" ]
 z = int
 
-if interpreter
+if y[0] in interpreter:
+    print( x / z)
+elif y[1] in interpreter:
+    print(x - z)
+elif y[2] in interpreter:
+    print(x + z)elif y[2] in interpreter:
+    print(x + z)
