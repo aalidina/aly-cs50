@@ -5,7 +5,7 @@ def main():
     lunch time = "12:00 and 13:00"
     dinner time = "18:00 and 19:00"
 
-    if time 
+    if time > 7
 
     print(time)
 
