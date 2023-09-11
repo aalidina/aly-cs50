@@ -9,8 +9,8 @@ b = float(z)
 if y == "+":
     print(a + b)
 elif y == "-":
-    print(x - z)
+    print(a - b)
 elif y == "/":
-    print(x/z)
+    print(a / b)
 else:
-    print(x*z)
+    print(a * b)
