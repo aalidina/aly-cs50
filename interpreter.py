@@ -1,6 +1,7 @@
 interpreter = input("Expression: " ).split(" ")
 
 x,y,z = interpreter
+Print (x,y,z)
 
 a = float(x)
 b = float(z)
