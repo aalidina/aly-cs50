@@ -11,6 +11,6 @@ if y == "+":
 elif y == "-":
     print(x - z)
 elif y == "/":
-    print(x % z)
+    print(x/z)
 else:
     print(x * z)
