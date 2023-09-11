@@ -1,5 +1,5 @@
 def main():
-    time = input(" Enter Time: ").split(" ")
+    time = input(" Enter Time: ").split(":")
     print(time)
 
 
