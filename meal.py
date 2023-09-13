@@ -18,7 +18,7 @@ def main():
 def convert(time):
 
       h, m = timetime.split(":")
-      hours = h * 24
+      hours = float(h * 24)
       print(hours)
 
 # breakfast = "7:00 and 8:00"
