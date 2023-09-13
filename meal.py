@@ -1,10 +1,10 @@
 
 # Structure your program per the below, wherein
 def main():
-    time = input("What time is it? ").split(":")
-    convert(time)
-    # print(hours)
-    if convert(time) > 7:
+    x = input("What time is it? ").split(":")
+    # convert(time)
+    print(hours)
+    if convert(x) > 7:
         print("breakfast time")
 
 
