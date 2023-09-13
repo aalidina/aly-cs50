@@ -26,8 +26,5 @@ def convert(time):
     return(time)
 
 
-
-
-
 if __name__ == "__main__":
     main()
