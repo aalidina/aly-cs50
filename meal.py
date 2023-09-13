@@ -2,10 +2,10 @@
 # Structure your program per the below, wherein
 def main():
     time = input("What time is it? ").split(":")
-    x = convert(time)
+    convert(time)
     print(hours)
-    # if 7 >= convert(time) < 8:
-    #     print("breakfast time")
+    if 7 >= hours < 8:
+        print("breakfast time")
 
 
 
@@ -19,7 +19,9 @@ def convert(time):
     a = float(h)
     b = float(m)
 
+    global hours
     hours = a + b / 60
+
     # print(hours)
 
 
