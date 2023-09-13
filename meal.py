@@ -15,6 +15,7 @@ def main():
 
 
 def convert(time):
+      time = input("What time is it? ").split(":")
       h, m = time
 
 
