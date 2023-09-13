@@ -2,14 +2,12 @@
 # Structure your program per the below, wherein
 def main():
     time = input("What time is it? ").split(":")
-    convert(time)
+    hours = convert(time)
+
+    if hours > 7 && hours < 8:
+        print("breakfast time")
 
 
-
-    # if h > 7 & h < 8:
-    #     print("breakfast time")
-
-    # print(time)
 
 
 def convert(time):
