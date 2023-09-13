@@ -3,6 +3,7 @@
 # to the corresponding number of hours as a float. For instance, given a time like "7:30" (i.e., 7 hours and 30 minutes), convert should return 7.5 (i.e., 7.5 hours).
 
 def main():
+    time = input("What time is it? ")
     time()
 
 
@@ -15,8 +16,8 @@ def main():
 
 
 def convert(time):
-      time = input("What time is it? ").split(":")
-      h, m = time
+
+      h, m = timetime.split(":")
       hours = h * 24
       print(hours)
 
