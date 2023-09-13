@@ -4,7 +4,9 @@
 
 def main():
     time = input("What time is it? ")
-    time()
+    h, m = timetime.split(":")
+    hours = float(h * 24)
+    print(hours)
 
 
 
@@ -17,9 +19,9 @@ def main():
 
 def convert(time):
 
-      h, m = timetime.split(":")
-      hours = float(h * 24)
-      print(hours)
+    #   h, m = timetime.split(":")
+    #   hours = float(h * 24)
+    #   print(hours)
 
 # breakfast = "7:00 and 8:00"
 # lunch = "12:00 and 13:00"
