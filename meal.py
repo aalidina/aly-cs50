@@ -1,12 +1,8 @@
 
-# Structure your program per the below, wherein convert is a function (that can be called by main) that converts time, a str in 24-hour format,
-# to the corresponding number of hours as a float. For instance, given a time like "7:30" (i.e., 7 hours and 30 minutes), convert should return 7.5 (i.e., 7.5 hours).
-
+# Structure your program per the below, wherein
 def main():
     time = input("What time is it? ").split(":")
-    h, m = time
-    hours = float(h + m / 60)
-    print(hours)
+    convert(time)
 
 
 
@@ -17,7 +13,17 @@ def main():
 
 
 def convert(time):
-      h, m = time
+# convert is a function (that can be called by main) that converts time, a str in 24-hour format,
+# to the corresponding number of hours as a float. For instance, given a time like "7:30" (i.e., 7 hours and 30 minutes), convert should return 7.5 (i.e., 7.5 hours).
+
+    h, m = time
+
+    a = float(h)
+    b = float(m)
+
+    hours = a + b / 60
+    print(hours)
+
 
 
 
