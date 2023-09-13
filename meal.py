@@ -5,7 +5,7 @@
 def main():
     time = input("What time is it? ").split(":")
     h, m = time
-    hours = h + m / 60
+    hours = float(h + m / 60)
     print(hours)
 
 
