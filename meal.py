@@ -4,9 +4,9 @@
 
 def main():
     time = input("What time is it? ")
-    h, m = timetime.split(":")
-    hours = float(h * 24)
-    print(hours)
+    # h, m = timetime.split(":")
+    # hours = float(h * 24)
+    # print(hours)
 
 
 
