@@ -18,6 +18,7 @@ def convert(time):
       time = input("What time is it? ").split(":")
       h, m = time
       hours = h * 24
+      print(hours)
 
     breakfast = "7:00 and 8:00"
     lunch = "12:00 and 13:00"
