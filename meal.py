@@ -5,8 +5,10 @@ def main():
     x = convert(x)
     if 7 <= x <=8:
         print("breakfast time")
-    elif 12 <= x <= 13
+    elif 12 <= x <= 13:
         print("Lunch Time")
+    elif 18 <= x <= 19:
+        print("Dinner Time")
 
 
 
@@ -22,7 +24,7 @@ def convert(time):
 
     time = a + b / 60
     return(time)
-    # print(hours)
+
 
 
 
