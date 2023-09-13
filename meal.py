@@ -5,7 +5,7 @@
 def main():
     time = input("What time is it? ").split(":")
     h, m = time
-    hours = h * 24
+    hours = h + m / 60
     print(hours)
 
 
