@@ -3,9 +3,9 @@
 def main():
     x = input("What time is it? ").split(":")
     # convert(time)
-    print(hours)
-    if convert(x) > 7:
-        print("breakfast time")
+    print(convert(x))
+    # if convert(x) > 7:
+    #     print("breakfast time")
 
 
 
