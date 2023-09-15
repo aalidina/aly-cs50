@@ -7,7 +7,6 @@ def main():
         if coin in d:
             c = coin + c
             change(c)
-
         else:
             print("Amount Due:", 50)
 
