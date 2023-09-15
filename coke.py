@@ -4,7 +4,7 @@ print("Amout Due: 50")
 while c < 50:
     coin = int(input("Insert Coin: "))
     if coin in d:
-        change(coin)
+        x = change()
     else:
         print("Amount Due:", 50)
 
