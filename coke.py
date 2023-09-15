@@ -15,4 +15,5 @@ def change(coin):
         print("Change Owed:", 0)
     else:
         print("Amount Due:", 50 - c)
+        return(c)
 
