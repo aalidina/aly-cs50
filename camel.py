@@ -1,6 +1,6 @@
 case = input("camleCase: ")
 for i in case:
     if i.islower():
-        print(True, end="")
+        print(i, end="")
     else:
-        print(case, end="")
+        print("_" + i.islower(), end="")
