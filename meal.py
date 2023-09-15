@@ -1,5 +1,5 @@
 
-# Structure your program per the below, wherein
+
 def main():
     x = input("What time is it? ")
     x = convert(x)
