@@ -3,4 +3,4 @@ for i in case:
     if i.islower():
         print(i, end="")
     else:
-        print("_" + i.islower(), end="")
+        print("_" + i.lower(), end="")
