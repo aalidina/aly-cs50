@@ -1,5 +1,7 @@
-c = 50
-while c <= 50:
+a = 50
+c = 0
+while a <= 50:
     print("Amout Due: 50")
     coin = input("Incert Coin: ")
-    if 
+    c = a + c
+    if
