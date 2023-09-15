@@ -1,3 +1,4 @@
 vowels = [a,e,i,o,u]
-for i in vowels
-    
+input = input("Input: ")
+for i in input:
+    if i in vowels:
