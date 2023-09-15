@@ -4,11 +4,11 @@ print("Amout Due: 50")
 while c < 50:
     coin = int(input("Insert Coin: "))
     if coin in d:
-        change()
+        change(coin)
     else:
         print("Amount Due:", 50)
 
-def change(coin)
+def change(coin):
     if c > 50:
         print("Change Owed:", c - 50)
     elif c == 50:
