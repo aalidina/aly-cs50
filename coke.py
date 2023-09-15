@@ -11,13 +11,13 @@ def main():
         else:
             print("Amount Due:", 50)
 
-def change(c):
-    if c > 50:
-        print("Change Owed:", c - 50)
-    elif c == 50:
+def change(coin):
+    if coin > 50:
+        print("Change Owed:", coin - 50)
+    elif coin == 50:
         print("Change Owed:", 0)
     else:
-        print("Amount Due:", 50 - c)
-    return(c)
+        print("Amount Due:", 50 - coin)
+    return(coin)
 
 main()
