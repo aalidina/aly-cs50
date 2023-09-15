@@ -3,5 +3,5 @@ c = 0
 while a <= 50:
     print("Amout Due: 50")
     coin = input("Incert Coin: ")
-    c = a + c
-    if
+    c = coin + c
+else:
