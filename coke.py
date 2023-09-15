@@ -7,10 +7,11 @@ while c < 50:
         c = coin + c
     else:
         print("Amount Due:", 50)
-    elif c > 50:
-        print("Change Owed:", c - 50)
-    elif c == 50:
-        print("Change Owed:", 0)
-    else:
-        print("Amount Due:", 50 - c)
+
+        if c > 50:
+            print("Change Owed:", c - 50)
+        elif c == 50:
+            print("Change Owed:", 0)
+        else:
+            print("Amount Due:", 50 - c)
 
