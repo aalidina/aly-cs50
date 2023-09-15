@@ -3,5 +3,5 @@ input = input("Input: ")
 for i in input:
     if i in vowels:
         x = str(i.lstrip())
-        print(input.strip(x), end="")
+        print(input.translate( { ord(x): None } ), end="")
 print(" ")
