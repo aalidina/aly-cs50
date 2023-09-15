@@ -1,3 +1,4 @@
+def main():
 c = 0
 d = [5, 10, 25]
 print("Amout Due: 50")
