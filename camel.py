@@ -4,3 +4,4 @@ for i in case:
         print(i, end="")
     else:
         print("_" + i.lower(), end="")
+print(" ")
