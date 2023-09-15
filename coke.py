@@ -8,7 +8,7 @@ while c < 50:
     else:
         print("Amount Due:", 50)
 
-def change(coin):
+def change():
     if c > 50:
         print("Change Owed:", c - 50)
     elif c == 50:
