@@ -3,6 +3,6 @@ input = input("Input: ")
 for i in input:
     if i in vowels:
         x = str(i.lstrip())
-        y = input.translate(x)
-        print(x, end="")
+        # y = input.translate(x)
+        print(input.translate(x))
 print(" ")
