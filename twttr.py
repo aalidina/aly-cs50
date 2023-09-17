@@ -6,3 +6,8 @@ for i in input:
         # y = input.translate(x)
         print(input.translate(x))
 print(" ")
+
+
+txt = "Hello Sam!"
+mytable = str.maketrans("S", "P")
+print(txt.translate(mytable))
