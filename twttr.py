@@ -4,5 +4,5 @@ for i in input:
     if i in vowels:
         x = str(i.lstrip())
         y = input.translate(x)
-        print(y, end="")
+        print(x, end="")
 print(" ")
