@@ -13,7 +13,7 @@ def main():
 
 
 def is_valid(s):
-   if s[0:2].isalnum() == False & len(s) < 6:
+   if s[0:2].isalpha() == True & len(s) < 6:
         return True
    else:
        print("Invalid length")
