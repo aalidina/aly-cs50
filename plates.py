@@ -13,7 +13,7 @@ def main():
 
 
 def is_valid(s):
-    
+    s.split("")
 
 
 main()
