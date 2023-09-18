@@ -13,10 +13,12 @@ def main():
 
 
 def is_valid(s):
-   if s[0:2].isalpha() & len(s) < 6 & s[0] != 0:
+   if s[0:2].isalpha() & len(s) <= 6:
         print(s)
+   else:
+       print("Invalid length")
 
 
 # main()
-s = "cs50"
+s = "cs56785332"
 is_valid(s)
