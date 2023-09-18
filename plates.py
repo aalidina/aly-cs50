@@ -19,6 +19,6 @@ def is_valid(s):
        print("Invalid length")
 
 
-# main()
-s = "cs56785332"
-is_valid(s)
+main()
+# x = "cs56785332"
+# is_valid(x)
