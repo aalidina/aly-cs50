@@ -13,8 +13,8 @@ def main():
 
 
 def is_valid(s):
-    x = s.split("")
+    x = s.split(" ")
     print(x)
 
 
-main()
+# main()
