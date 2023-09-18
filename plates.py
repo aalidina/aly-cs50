@@ -14,10 +14,10 @@ def main():
 
 def is_valid(s):
    if s[0:2].isalpha() & len(s) < 6:
-#         print(s)
-#    else:
-#        print("Invalid length")
-    return(s)
+        return(True)
+   else:
+       print("Invalid length")
+       return(False)
 
 
 main()
