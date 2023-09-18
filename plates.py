@@ -17,12 +17,9 @@ def is_valid(s):
    if len(s) < 2 or len(s) > 6:
        return False
 
-   if s[:2].isalpha() == True:
-        return True
-   else:
-       return False
+   if s[0].isalpha() == False & s[1].isalpha() == False:
+        return False
+
 
 
 main()
-# x = "cs56785332"
-# is_valid(x)
