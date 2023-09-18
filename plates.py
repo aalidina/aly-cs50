@@ -13,10 +13,9 @@ def main():
 
 
 def is_valid(s):
-   if s[0:2].isalpha() == True & len(s) < 6:
+   if s[0:1].isalpha() == True:
         return True
    else:
-       print("Invalid length")
        return False
 
 
