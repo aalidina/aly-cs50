@@ -13,7 +13,11 @@ def main():
 
 
 def is_valid(s):
-   if s[:2].isalpha() == True & len(s) < 6:
+
+   if len(s) < 2 or len(s) > 6:
+       return False
+
+   if s[:2].isalpha() == True:
         return True
    else:
        return False
