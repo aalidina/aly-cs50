@@ -18,3 +18,4 @@ def is_valid(s):
 
 
 # main()
+is_valid(x)
