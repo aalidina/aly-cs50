@@ -13,7 +13,7 @@ def main():
 
 
 def is_valid(s):
-    
+
    if len(s) < 2 or len(s) > 6:
        return False
 
@@ -23,7 +23,8 @@ def is_valid(s):
     if s[0] == 0 or s[1].isalpha() == False:
        return False
 
-   if s.
+   for i in s:
+       if i == ['.', ' ', '!', '?']
 
 
 main()
