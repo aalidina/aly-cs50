@@ -28,6 +28,8 @@ def is_valid(s):
        if i in ['.', ' ', '!', '?']:
            return False
 
+    return True
+
 
 
 
