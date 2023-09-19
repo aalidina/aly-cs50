@@ -23,9 +23,12 @@ def is_valid(s):
     if s[0] == 0 or s[1].isalpha() == False:
        return False
 
-for i in s:
-if i in ['.', ' ', '!', '?']:
-    return False
+    for i in s:
+       if i in ['.', ' ', '!', '?']:
+           return False
+
+
+
 
 
 main()
