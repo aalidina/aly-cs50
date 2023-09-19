@@ -20,8 +20,9 @@ def is_valid(s):
    if s[0].isalpha() == False & s[1].isalpha() == False:
         return False
 
-    if s[0] == 0:
+    if s[0] == 0 or s[1].isalpha() == False:
        return False
+   
 
 
 main()
