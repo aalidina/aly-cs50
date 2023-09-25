@@ -4,8 +4,9 @@ x,y = fuel
 a = float(x)
 b = float(y)
 if a/b >= 1:
-    print("E)
-          
+    print("E")
+elif a/b >= 99:
+    print("F")
 
 
-print(a/b)
+
