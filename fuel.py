@@ -1,8 +1,10 @@
 try:
     fuel = input("Enter Fraction: ").split("/")
     x,y = fuel
-except:
-    
+except ValueError:
+    pass
+else:
+
     a = float(x)
     b = float(y)
 
