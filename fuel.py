@@ -4,4 +4,4 @@ x,y = fuel
 a = float(x)
 b = float(y)
 
-print({x}/{y})
+print(x/y)
