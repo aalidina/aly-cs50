@@ -14,7 +14,7 @@ def main():
 
 def is_valid(s):
 
-    if len(s) < 2 or len(s) > 6:
+    if len(s) < 2 or len(s) < 6:
         return False
 
     if s[0].isalpha() == False & s[1].isalpha() == False:
@@ -27,6 +27,24 @@ def is_valid(s):
     for i in s:
        if i in ['.', ' ', '!', '?']:
            return False
+
+     # Numbers cannot be used in the middle of a plate; they must come at the end.
+    # For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
+    # The first number used cannot be a ‘0’
+    i = 0
+    while i < len(s):
+        if s[i].isalpha() == False:
+            if s[i] == '0':
+                return False
+            else:
+                break
+        i += 1
+
+    for i in range(len(s)):
+        if s[i].isdigit():
+            if not s[i:].isdigit():
+                return False
+
 
     return True
 
