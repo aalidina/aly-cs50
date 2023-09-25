@@ -1,12 +1,11 @@
 try:
     fuel = input("Enter Fraction: ").split("/")
     x,y = fuel
+    a = float(x)
+    b = float(y)
 except ValueError:
     pass
 else:
-
-    a = float(x)
-    b = float(y)
 
     if a/b * 100 <= 0.01:
         print("E")
