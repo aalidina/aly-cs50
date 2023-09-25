@@ -5,10 +5,10 @@ try:
 except ValueError:
     pass
 else:
+    print("Please enter a fraction")
 
 
-
-def fuel_gauge()
+def fuel_gauge():
     fuel = input("Enter Fraction: ").split("/")
     x,y = fuel
     a = float(x)
