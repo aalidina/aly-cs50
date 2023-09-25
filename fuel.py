@@ -1,3 +1,3 @@
-fuel = int(input("Enter Fraction: "))
+fuel = input("Enter Fraction: ").split("/")
 x,y = fuel
-print(x/y)
+print({x}"/"{y})
