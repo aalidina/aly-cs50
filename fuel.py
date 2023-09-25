@@ -1,4 +1,4 @@
 fuel = input("Enter Fraction: ").split("/")
-x,y = fuel
+x,y = float(fuel)
 
-print(x,y)
+print(x/y)
