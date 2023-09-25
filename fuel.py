@@ -3,6 +3,8 @@ x,y = fuel
 
 a = float(x)
 b = float(y)
+
+def fuel_gauge()
 if a/b * 100 <= 0.01:
     print("E")
 elif a/b * 100 >= 0.99:
