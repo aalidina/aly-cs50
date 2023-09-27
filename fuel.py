@@ -22,7 +22,7 @@ def fuel_gauge():
         except ValueError:
             print("x is not an integer")
         else:
-            pass
+            return fuel
 
 
 
