@@ -19,7 +19,7 @@ def fuel_gauge():
                 return "75%"
             elif a/b * 100 == 25:
                 return "25%"
-            else:
+            elif a > b:
                 text = input("Fraction: ")
 
 
