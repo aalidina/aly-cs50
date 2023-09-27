@@ -12,13 +12,19 @@ def fuel_gauge():
             b = float(y)
 
             if a/b * 100 == 0:
-                print("E")
+                return "E"
+            elif a/b * 100 == 1:
+                return "F"
+            elif a/b * 100 == 75:
+                return "75%"
+            elif a/b * 100 == 25:
+                return "25%"
+            
 
         except ValueError:
             print("x is not an integer")
         else:
             return fuel
-
 
 
 
