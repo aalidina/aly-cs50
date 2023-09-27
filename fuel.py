@@ -12,9 +12,9 @@ def fuel_gauge():
             b = float(y)
 
             if a/b * 100 == 0:
-                return "E"
+                print("E")
             elif a/b * 100 == 1:
-                return "F"
+                print("F")
             elif a/b * 100 == 0.75:
                 print("75%")
             elif a/b * 100 == 0.25:
