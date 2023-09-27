@@ -19,6 +19,7 @@ def fuel_gauge():
                 print("75%")
             elif a/b * 100 == 0.25:
                 print("25%")
+                
         except ValueError:
             print("x is not an integer")
         else:
