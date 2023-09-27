@@ -21,7 +21,7 @@ def fuel_gauge():
                 return "25%"
 
 
-        except ValueError:
+        except (ValueError, ZeroDivisionError):
             print("x is not an integer")
 
         return fuel
