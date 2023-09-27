@@ -1,12 +1,7 @@
 def main():
 
-        try:
-            g = fuel_gauge()
-            print(f"{g}")
-        except ValueError:
-            pass
-
-
+    g = fuel_gauge()
+    print(f"{g}")
 
 def fuel_gauge():
     try:
@@ -16,12 +11,12 @@ def fuel_gauge():
         b = float(y)
 
         if a/b * 100 <= 0.01:
-        return "E"
+            return "E"
         elif a/b * 100 >= 0.99:
             return "F"
-    except:
+    except ValueError:
          pass
-    
+
 
 
 
