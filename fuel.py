@@ -1,11 +1,11 @@
-try:
-    g = fuel_gauge()
-    print(f"{g}")
+def main():
+ 
+        try:
+            g = fuel_gauge()
+            print(f"{g}")
+        except ValueError:
+            pass
 
-except ValueError:
-    pass
-else:
-    print("Please enter a fraction")
 
 
 def fuel_gauge():
@@ -20,3 +20,5 @@ def fuel_gauge():
         return "F"
 
 
+
+main()
