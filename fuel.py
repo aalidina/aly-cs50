@@ -15,8 +15,8 @@ def fuel_gauge():
     b = float(y)
 
     if a/b * 100 <= 0.01:
-        print("E")
+       return "E"
     elif a/b * 100 >= 0.99:
-        print("F")
+        return "F"
 
 
