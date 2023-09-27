@@ -5,8 +5,8 @@ def main():
 
 def fuel_gauge():
     while True:
+        fuel = input("Enter Fraction: ").split("/")
         try:
-            fuel = input("Enter Fraction: ").split("/")
             x,y = fuel
             a = float(x)
             b = float(y)
