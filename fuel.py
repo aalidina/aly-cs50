@@ -14,7 +14,7 @@ def fuel_gauge(prompt):
 
             if a/b * 100 == 0:
                 return "E"
-            elif a/b * 100 == 1:
+            elif a/b * 100 == 1 or a/b * 100 == 99:
                 return "F"
             elif a/b * 100 == 75:
                 return "75%"
