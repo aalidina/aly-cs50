@@ -8,7 +8,7 @@ def fuel_gauge(prompt):
 
         try:
             n,d = input(prompt).split("/")
-            r = n/d
+            r = int(n/d
         except (ValueError, ZeroDivisionError):
             pass
         else:
@@ -18,10 +18,8 @@ def fuel_gauge(prompt):
                 return "E"
             elif r  == 1 or r == 99/100:
                 return "F"
-            elif a/b * 100 == 75:
-                return "75%"
-            elif a/b * 100 == 25:
-                return "25%"
+            print(round(result * 100), '%', sep='')
+            break
 
 
 
