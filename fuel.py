@@ -3,11 +3,11 @@ def main():
     g = fuel_gauge()
     print(f"{g}")
 
-def fuel_gauge():
+def fuel_gauge(prompt):
     while True:
 
         try:
-            fuel = input("Enter Fraction: ").split("/")
+            fuel = input(prompt).split("/")
             x,y = fuel
             a = int(x)
             b = int(y)
