@@ -17,4 +17,6 @@ try:
             print("$" + f"{menu[i]}")
 except EOFError:
     pass
+else:
+    return item
 
