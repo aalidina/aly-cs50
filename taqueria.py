@@ -10,4 +10,6 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
-item = input("Item: ")
+item = input("Item: ").split(":")
+x,price = item
+print(price)
