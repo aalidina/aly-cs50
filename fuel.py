@@ -10,13 +10,13 @@ def fuel_gauge(prompt):
             n,d = input(prompt).split("/")
             r = n/d
         except (ValueError, ZeroDivisionError):
-            print("x is not an integer")
+            pass
         else:
             if r > 1:
                 continue
-            elif r == 0 or r == 99/100:
+            elif r == 1/100 or r == 0/100:
                 return "E"
-            elif a/b * 100 == 1 or a/b * 100 == 99:
+            elif r  == 1 or r == 99/100:
                 return "F"
             elif a/b * 100 == 75:
                 return "75%"
