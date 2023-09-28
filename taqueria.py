@@ -11,5 +11,6 @@ menu = {
 }
 
 item = input("Item: ")
-if item in menu:
-    print(item)
+for i in menu:
+    if item == i:
+         print(menu[i])
