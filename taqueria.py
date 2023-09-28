@@ -11,5 +11,5 @@ menu = {
 }
 
 item = input("Item: ").upper()
-for i in menu:
-    print(i)
+if item in menu:
+    print(item)
