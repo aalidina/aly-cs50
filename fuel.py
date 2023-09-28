@@ -9,8 +9,8 @@ def fuel_gauge():
         try:
             fuel = input("Enter Fraction: ").split("/")
             x,y = fuel
-            a = float(x)
-            b = float(y)
+            a = int(x)
+            b = int(y)
 
             if a/b * 100 == 0:
                 return "E"
@@ -20,9 +20,6 @@ def fuel_gauge():
                 return "75%"
             elif a/b * 100 == 25:
                 return "25%"
-
-            if a > b:
-                return fuel
 
 
         except (ValueError, ZeroDivisionError):
