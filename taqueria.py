@@ -11,5 +11,5 @@ menu = {
 }
 
 item = input("Item: ")
-for i, p in menu:
+for i in menu:
     print(p)
