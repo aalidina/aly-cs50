@@ -5,7 +5,6 @@ def main():
 
 def fuel_gauge(prompt):
     while True:
-
         try:
             n,d = input(prompt).split("/")
             r = int(n)/int(d)
