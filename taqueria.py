@@ -10,14 +10,16 @@ menu = {
     "Tortilla Salad": "8.00"
 }
 
-item = input("Item: ").lower()
+
 while True:
     try:
+        item = input("Item: ").lower()
         for i in menu:
             if item == i.lower():
                 print("$" + f"{menu[i]}")
+            else:
+                print(item)
     except EOFError:
         pass
-    # else:
-    #     return item
+
 
