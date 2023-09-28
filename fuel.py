@@ -19,7 +19,7 @@ def fuel_gauge(prompt):
             elif r  == 1 or r == 99/100:
                 return "F"
             else:
-                return round(r * 100) + "%"
+                return round(r * 100 )
 
 
 
