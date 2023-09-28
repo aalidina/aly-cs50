@@ -20,8 +20,8 @@ def fuel_gauge(prompt):
         except (ValueError, ZeroDivisionError):
             pass
         else:
-            x = round(r * 100),  '%'
-            return x
+            x = round(r * 100)
+            return x"%"
 
 
 
