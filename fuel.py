@@ -21,12 +21,6 @@ def fuel_gauge(prompt):
             elif a/b * 100 == 25:
                 return "25%"
 
-            while True:
-                if a > b:
-                    text = input("Enter Fraction: ")
-                else:
-                    break
-
 
         except (ValueError, ZeroDivisionError):
             print("x is not an integer")
