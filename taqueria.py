@@ -7,10 +7,9 @@ menu = {
     "Super Burrito": 8.50,
     "Super Quesadilla": 9.50,
     "Taco": 3.00,
-    "Tortilla Salad": 8.00,
-    "apple": "130"
+    "Tortilla Salad": 8.00
 }
 
 item = input("Item: ")
-for i in item:
-    print(i)
+for i in menu:
+    print(menu(item))
