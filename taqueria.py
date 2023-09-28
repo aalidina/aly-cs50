@@ -11,5 +11,5 @@ menu = {
 }
 
 item = input("Item: ").split(":")
-x,price = item
-print(price)
+
+print(item)
