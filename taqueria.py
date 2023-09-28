@@ -12,4 +12,4 @@ menu = {
 
 item = input("Item: ")
 for i in menu:
-    print(menu(item))
+    print(item[i])
