@@ -23,8 +23,4 @@ def fuel_gauge(prompt):
             return str(round(r * 100)) + "%"
 
 
-
-
-
-
 main()
