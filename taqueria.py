@@ -17,9 +17,10 @@ while True:
         for i in menu:
             if item == i.lower():
                 print("$" + f"{menu[i]}")
-            else:
-                print(item)
+
     except EOFError:
         pass
+    else:
+        return "x"
 
 
