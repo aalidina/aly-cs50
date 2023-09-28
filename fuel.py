@@ -23,7 +23,4 @@ def fuel_gauge(prompt):
             break
 
 
-
-
-
 main()
