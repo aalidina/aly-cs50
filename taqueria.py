@@ -1,5 +1,5 @@
 menu = {
-    "Baja Taco": 4.00,
+    "Baja Taco": "4.00",
     "Burrito": 7.50,
     "Bowl": 8.50,
     "Nachos": 11.00,
@@ -10,6 +10,6 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
-item = input("Item: ").split(":")
-
-print(item)
+item = input("Item: ")
+for i in item:
+    print(i)
