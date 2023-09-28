@@ -14,7 +14,7 @@ item = input("Item: ").lower()
 try:
     for i in menu:
         if item == i.lower():
-            print("$",menu[i])
+            print("$" + f"{menu[i]}")
 except EOFError:
     pass
 
