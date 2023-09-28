@@ -11,12 +11,13 @@ menu = {
 }
 
 item = input("Item: ").lower()
-try:
-    for i in menu:
-        if item == i.lower():
-            print("$" + f"{menu[i]}")
-except EOFError:
-    pass
-else:
-    return item
+while True:
+    try:
+        for i in menu:
+            if item == i.lower():
+                print("$" + f"{menu[i]}")
+    except EOFError:
+        pass
+    # else:
+    #     return item
 
