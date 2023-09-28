@@ -7,7 +7,8 @@ menu = {
     "Super Burrito": 8.50,
     "Super Quesadilla": 9.50,
     "Taco": 3.00,
-    "Tortilla Salad": 8.00
+    "Tortilla Salad": 8.00,
+    "apple": "130"
 }
 
 item = input("Item: ")
