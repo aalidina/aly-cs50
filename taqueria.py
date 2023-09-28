@@ -10,6 +10,6 @@ menu = {
     "Tortilla Salad": "8.00"
 }
 
-item = input("Item: ").upper()
+item = input("Item: ")
 if item in menu:
     print(item)
