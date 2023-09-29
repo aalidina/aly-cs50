@@ -19,13 +19,13 @@ def main():
 
 
 def price():
-    list = 0
+    total = 0
     while True:
         item = input("Item: ").lower()
         try:
             for i in menu:
                 if item == i.lower():
-                    list = menu[i] + int(list)
+                    total = menu[i] + int(list)
                     print("$" + f"{list}")
         except EOFError:
             pass
