@@ -29,10 +29,8 @@ def price():
 
 
         # // Except Control+D is pressed
-        except EOFError as e:
-            print(e)
-        else:
-            return 0
+        except EOFError:
+            break
 
 
 main()
