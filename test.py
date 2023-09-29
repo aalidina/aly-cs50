@@ -15,3 +15,5 @@ menu = {
 item = input("Item: ")
 if item in menu:
     print(menu[item])
+else:
+    print("x")
