@@ -11,23 +11,7 @@ menu = {
 }
 
 
-total = 0
-while True:
-    item = input("Item: ").lower()
-    try:
-        for i in menu:
-            if item == i.lower():
-                total += menu[i]
-                    # // Print the new total formatted to 2 decimal points
-                print("$" + f"{total:.2f}")
-                # print(item)
-                # print(i.lower())
-            else:
-                return "x"
 
-    # // Except Control+D is pressed
-    except EOFError as e:
-        print(e)
-
-
-main()
+item = input("Item: ")
+if item in menu:
+    print(menu[item])
