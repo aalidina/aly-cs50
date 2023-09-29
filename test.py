@@ -10,7 +10,7 @@ menu = {
     "Tortilla Salad": "8.00"
 }
 
-def main("Item: "):
+def main():
     x = menu()
     return x
 
@@ -24,6 +24,6 @@ def menu():
         except EOFError:
             pass
         else:
-            return "x"
+            return item
 
 main()
