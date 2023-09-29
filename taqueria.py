@@ -32,7 +32,7 @@ def price():
 
         # // Except Control+D is pressed
         except EOFError:
-            pass
+            break
 
 
 main()
