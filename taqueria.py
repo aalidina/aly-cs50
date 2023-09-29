@@ -16,3 +16,5 @@ item = input("Item: ").lower()
 for i in menu:
     if item == i.lower():
         print("$" + f"{menu[i]}")
+    else:
+        return item
