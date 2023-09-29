@@ -21,7 +21,8 @@ def price():
     while 1:
         # item = input("Item: ").lower()
         try:
-            item: str = input("Item: ").lower()
+            # item: str = input("Item: ").lower()
+            item = input("Item: ").lower()
             for i in menu:
                 if item == i.lower():
                     total += menu[i]
@@ -29,7 +30,7 @@ def price():
                     print("$" + f"{total:.2f}")
         # // Except Control+D is pressed
         except EOFError:
-            return total
+            return str("$" + f"{total:.2f}")
 
 
 main()
