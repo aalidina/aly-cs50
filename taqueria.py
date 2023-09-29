@@ -25,9 +25,10 @@ def price():
             for i in menu:
                 if item == i.lower():
                     print("$" + f"{menu[i]}")
+                    break
         except EOFError:
             pass
         else:
-            return item
+            return "x"
 
 main()
