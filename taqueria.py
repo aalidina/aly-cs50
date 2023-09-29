@@ -20,8 +20,9 @@ def price():
     total = 0
     while 1:
         # item = input("Item: ").lower()
-       
         try:
+            # item: str = input("Item: ").lower()
+            item = input("Item: ").lower()
             for item in menu:
                 total += menu[item]
                     # // Print the new total formatted to 2 decimal points
