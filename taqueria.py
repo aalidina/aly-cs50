@@ -18,7 +18,7 @@ def main():
 
 def price():
     total = 0
-    while True:
+    while 1:
         item = input("Item: ").lower()
         try:
             for i in menu:
