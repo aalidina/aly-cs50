@@ -27,7 +27,7 @@ def price():
                      # // Print the new total formatted to 2 decimal points
                     print("$" + f"{total:.2f}")
                 else:
-                    return 0
+                    return "x"
 
 
         # // Except Control+D is pressed
