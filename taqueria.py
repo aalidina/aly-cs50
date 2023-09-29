@@ -29,7 +29,7 @@ def price():
                      # // Print the new total formatted to 2 decimal points
                     print("$" + f"{total:.2f}")
                 elif item == "EOF":
-                    return total
+                    return 0
 
         # // Except Control+D is pressed
         except EOFError:
