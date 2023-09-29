@@ -10,12 +10,6 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
-def main():
-
-    x = price()
-    print(f"{x}")
-
-
 
 total = 0
 while True:
@@ -33,7 +27,7 @@ while True:
 
     # // Except Control+D is pressed
     except EOFError as e:
-        return item
+        print(e)
 
 
 main()
