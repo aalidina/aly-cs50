@@ -12,13 +12,13 @@ menu = {
 
 def main():
 
-    x = menu()
+    x = price()
     print(f"{x}")
 
 
 
 
-def menu():
+def price():
     while True:
         try:
             item = input("Item: ").lower()
@@ -27,7 +27,7 @@ def menu():
                     print("$" + f"{menu[i]}")
         except EOFError:
             pass
-        else:
-            return item
+        # else:
+        #     return item
 
-menu()
+main()
