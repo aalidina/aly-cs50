@@ -27,7 +27,7 @@ def price():
                     return str("$" + f"{menu[i]}")
         except EOFError:
             pass
-        else:
-            return item
+
+        return item
 
 main()
