@@ -26,7 +26,7 @@ def price():
             for i in menu:
                 if item == i.lower():
                     total += menu[i]
-                    print("$" + f"{total}")
+                    print("$" + f"{total:.2f}")
         except EOFError:
             pass
 
