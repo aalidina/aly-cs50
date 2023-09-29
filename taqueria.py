@@ -28,6 +28,5 @@ def price():
         except EOFError:
             pass
 
-        return item
 
 main()
