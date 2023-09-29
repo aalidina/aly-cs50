@@ -20,15 +20,14 @@ def main():
 
 def price():
     while True:
+        item = input("Item: ").lower()
         try:
-            item = input("Item: ").lower()
             for i in menu:
                 if item == i.lower():
-                    print("$" + f"{menu[i]}")
-                    break
+                    return str("$" + f"{menu[i]}")
         except EOFError:
             pass
         else:
-            return "x"
+            return item
 
 main()
