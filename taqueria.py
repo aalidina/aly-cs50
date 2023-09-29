@@ -30,6 +30,6 @@ def price():
                     print("$" + f"{total:.2f}")
         # // Except Control+D is pressed
         except EOFError:
-            pass
+            pass \n
 
 main()
