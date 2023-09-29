@@ -28,7 +28,7 @@ def price():
                     total += menu[i]
                      # // Print the new total formatted to 2 decimal points
                     print("$" + f"{total:.2f}")
-                elif item == "control-d":
+                elif item == "EOF":
                     return total
 
         # // Except Control+D is pressed
