@@ -17,4 +17,4 @@ for i in menu:
     if item == i.lower():
         print("$" + f"{menu[i]}")
     else:
-        return item
+    return item
