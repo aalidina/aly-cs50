@@ -28,9 +28,8 @@ def price():
                     print("$" + f"{total:.2f}")
                     print(item)
                     print(i.lower())
-
-                # else:
-                #     return "x"
+                else:
+                    return "x"
 
 
         # // Except Control+D is pressed
