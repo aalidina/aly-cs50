@@ -10,7 +10,7 @@ menu = {
     "Tortilla Salad": "8.00"
 }
 
-def main():
+def main("Item: "):
     x = menu()
     return x
 
