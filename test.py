@@ -14,4 +14,4 @@ def menu():
         else:
             return "x"
 
-menu()
+main()
