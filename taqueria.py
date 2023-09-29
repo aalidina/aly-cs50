@@ -28,10 +28,14 @@ def price():
                     total += menu[i]
                      # // Print the new total formatted to 2 decimal points
                     print("$" + f"{total:.2f}")
+                    return 0
+                else:
+                    return 0
 
 
         # // Except Control+D is pressed
         except EOFError:
+            break
         else:
             return 0
 
