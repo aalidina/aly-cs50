@@ -11,6 +11,7 @@ menu = {
 }
 def main():
     x = menu()
+    return x
 
 def menu():
     while True:
