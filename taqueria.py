@@ -11,10 +11,14 @@ menu = {
 }
 
 def main():
-    x = menu()
-    print(x)
 
-def menu():
+    x = menu("Item: ")
+    print(f"{x}")
+
+
+
+
+def menu(item):
     while True:
         try:
             item = input("Item: ").lower()
