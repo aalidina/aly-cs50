@@ -25,7 +25,7 @@ def price():
         try:
             for i in menu:
                 if item == i.lower():
-                    total += int(menu[i])
+                    total = float(menu[i])
                     print("$" + f"{list}")
         except EOFError:
             pass
