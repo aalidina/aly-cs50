@@ -12,13 +12,13 @@ menu = {
 
 def main():
 
-    x = menu("Item: ")
+    x = menu()
     print(f"{x}")
 
 
 
 
-def menu(item):
+def menu():
     while True:
         try:
             item = input("Item: ").lower()
@@ -30,4 +30,4 @@ def menu(item):
         else:
             return item
 
-main()
+menu()
