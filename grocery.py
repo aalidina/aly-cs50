@@ -1,4 +1,5 @@
 grocery = []
+count = 0
 while True:
     try:
         items = input("Enter Items: ").upper()
@@ -6,6 +7,6 @@ while True:
         for i in grocery:
             print(i, end='\n')
     except EOFError:
-        break
+        return grocery
 
 
