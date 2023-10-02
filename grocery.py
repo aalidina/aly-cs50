@@ -1,10 +1,10 @@
 grocery = []
 while True:
     try:
-        items = input().upper()
+        items = input("Enter Items: ").upper()
         grocery += items
     except EOFError:
-        for i in grocery:
+        # for i in grocery:
             print(str(grocery), end='\n')
             break
 
