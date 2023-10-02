@@ -4,7 +4,7 @@ while True:
         items = input("Enter Items: ").upper()
         grocery += items
     except EOFError:
-        for i in grocery:
-            print(grocery, end="\n")
+        # for i in grocery:
+        print(grocery, end="\n")
         break
 
