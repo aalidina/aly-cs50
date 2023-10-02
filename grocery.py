@@ -5,6 +5,6 @@ while True:
         grocery += items
     except EOFError:
         # for i in grocery:
-        print(grocery, end='\n')
+        print(grocery[1], end='\n')
         break
 
