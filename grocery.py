@@ -6,3 +6,4 @@ while True:
     except EOFError:
         for i in grocery:
             print(i, end = '\n')
+            break
