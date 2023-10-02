@@ -4,6 +4,6 @@ while True:
         grocery = []
         grocery += items
         for i in grocery:
-            print(i, '\n', end = '',)
+            print(i, end = '',)
     except EOFError:
         break
