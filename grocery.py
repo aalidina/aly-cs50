@@ -1,4 +1,4 @@
-grocery = []
+grocery = ""
 while True:
     try:
         items = input("Enter Items: ").upper()
