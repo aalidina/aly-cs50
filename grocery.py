@@ -3,4 +3,4 @@ while True:
     grocery = []
     grocery += items
     for i in grocery:
-        print(i)
+        print(grocery)
