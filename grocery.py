@@ -1,7 +1,7 @@
 grocery = []
 while True:
     try:
-        items = input("Enter Items: ").upper()
+        items = input().upper()
         grocery += items
     except EOFError:
         # for i in grocery:
