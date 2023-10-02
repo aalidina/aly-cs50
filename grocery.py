@@ -1,3 +1,5 @@
 items = input("Enter Items: ").upper()
 grocery = []
-print(items)
+grocery += items
+for i in grocery:
+    print(i)
