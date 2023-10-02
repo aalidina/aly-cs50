@@ -7,6 +7,5 @@ while True:
         # for i in grocery:
         print(str(grocery), end='\n')
         break
-    else:
-        break
+
 
