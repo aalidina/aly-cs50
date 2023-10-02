@@ -4,7 +4,7 @@ while True:
         grocery = []
         grocery += items
     except EOFError:
-        # for i in grocery:
-        print(grocery[1], end='\n')
-        break
+        for i in grocery:
+            print(grocery[i], end='\n')
+            break
 
