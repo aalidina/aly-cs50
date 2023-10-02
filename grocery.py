@@ -4,9 +4,10 @@ while True:
     try:
         items = input("Enter Items: ").upper()
         grocery.append(items)
-        for i in grocery:
-            print(i, end='\n')
+
     except EOFError:
-        return grocery
+        for i in grocery:
+            # print(i, end='\n')
+    return i
 
 
