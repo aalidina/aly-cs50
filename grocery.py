@@ -7,7 +7,9 @@ while True:
 
     except EOFError:
         for i in grocery:
-            # print(i, end='\n')
-    return i
+            print(i, end='\n')
+            print(grocery)
+            break
+
 
 
