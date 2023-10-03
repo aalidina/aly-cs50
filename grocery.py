@@ -9,7 +9,7 @@ while True:
             grocery[item] += 1
     except EOFError:
         for i in grocery:
-            print(grocery[i], i)
+            print(grocery[i])
         break
 
 
