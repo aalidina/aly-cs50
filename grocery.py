@@ -8,9 +8,10 @@ while True:
             if i in grocery:
                 count +=1
                 grocery.append(count)
-                print(count, i, end='\n')
     except EOFError:
-        print(i)
+            return str(count, i, end='\n')
+
+
 
 
 
