@@ -2,14 +2,17 @@ grocery = {}
 count = 0
 while True:
     try:
-        items = input().upper()
-        grocery.append(items)
+        item = input().upper()
+        # grocery.append(items)
         # for i in grocery:
-        if i in grocery:
+        if item in grocery:
             # count +=1
             # grocery.append(count)
+            grocery += grocery + 1
     except EOFError:
-            return str(count, i, end='\n')
+            for i in grocery:
+                print(grocery[i], i, end='\n')
+            break
 
 
 
