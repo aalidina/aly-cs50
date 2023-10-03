@@ -8,7 +8,8 @@ while True:
             print(i, end='\n')
     except EOFError:
         print(i)
-        break
+
+
 
 
 
