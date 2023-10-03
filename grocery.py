@@ -6,7 +6,7 @@ while True:
         if item in grocery:
             # count +=1
             # grocery.append(count)
-            grocery[item] += grocery[item] + 1
+            grocery[item] += 1
     except EOFError:
         for i in grocery:
             print(grocery[i], i, end='\n')
