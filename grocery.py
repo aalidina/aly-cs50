@@ -10,9 +10,9 @@ while True:
             # grocery.append(count)
             grocery += grocery + 1
     except EOFError:
-            for i in grocery:
-                print(grocery[i], i, end='\n')
-            break
+        for i in grocery:
+            print(grocery[i], i, end='\n')
+        break
 
 
 
