@@ -8,8 +8,8 @@ while True:
             # grocery.append(count)
             grocery[item] += 1
     except EOFError:
-        for i in grocery:
-            print(grocery[i])
+        for i in sorted(grocery):
+            print(grocery[i], i)
         break
 
 
