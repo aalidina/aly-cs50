@@ -5,7 +5,9 @@ while True:
         items = input().upper()
         grocery.append(items)
         for i in grocery:
-            print(i, end='\n')
+            if i in grocery:
+                count +=1
+                print(count, i, end='\n')
     except EOFError:
         print(i)
 
