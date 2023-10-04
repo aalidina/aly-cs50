@@ -19,5 +19,5 @@ m,d,y = date
 for m in months:
     if m.upper == months:
         print("x")
-    else:
-        print(y + "-" + m + "-" + d)
+    # else:
+    #     print("y")
