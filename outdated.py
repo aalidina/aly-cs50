@@ -16,5 +16,4 @@
 #prompt user for date
 date = input("Enter Date month day year or MM/DD/YYYY: ").split("/")
 m,d,y = date
-x = {y}-{m}-{d}
-print(x)
+print(y + "-" + m + "-" + d)
