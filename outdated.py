@@ -14,4 +14,4 @@
 ]
 
 #prompt user for date
-date = input("Enter Date month-day-year: ")
+date = input("Enter Date month-day-year: ").split()
