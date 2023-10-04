@@ -1,4 +1,4 @@
-[
+months = [
     "January",
     "February",
     "March",
@@ -16,5 +16,5 @@
 #prompt user for date
 date = input("Enter Date month day year or MM/DD/YYYY: ").split("/")
 m,d,y = date
-if 
+if y in 
 print(y + "-" + m + "-" + d)
