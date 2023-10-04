@@ -17,6 +17,6 @@ months = [
 date = input("Enter Date month day year or MM/DD/YYYY: ").split()
 m,d,y = date
 if m in months:
-    print(ymd)
+    print("x")
 else:
     print(y + "-" + m + "-" + d)
