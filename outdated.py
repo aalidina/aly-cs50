@@ -16,7 +16,8 @@ months = [
 #prompt user for date
 date = input("Enter Date month day year or MM/DD/YYYY: ").upper().split()
 m,d,y = date
-if m.upper in months:
-    print("x")
-else:
-    print(y + "-" + m + "-" + d)
+for m in months:
+    if m.upper == months:
+        print("x")
+    else:
+        print(y + "-" + m + "-" + d)
