@@ -19,7 +19,8 @@ try:
         m,d,y = date.split("/")
         print(y + "-" + m + "-" + d)
     elif "," in date:
-        m,d,y = date.split(",")
-        print(y + "-" + m + "-" + d)
+        m,d,y = date.split(" ")
+        
+        print(y + "-"+m+ "-"+d)
 except:
     pass
