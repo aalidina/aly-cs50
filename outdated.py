@@ -20,7 +20,7 @@ try:
         print(y + "-" + m + "-" + d)
     elif "," in date:
         m,d,y = date.split(" ")
-        index = month[m] +1
-        print(index)
+        m = (months.index(m) + 1)
+        print(m)
 except:
     pass
