@@ -14,8 +14,8 @@ months = [
 ]
 
 #prompt user for date
-date = input("Enter Date month day year or MM/DD/YYYY: ").upper()
-# m,d,y = date
+date = input("Enter Date month day year or MM/DD/YYYY: ").upper().split("/,")
+m,d,y = date
 print(m)
 for m in months:
     date.split(",")
