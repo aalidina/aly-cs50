@@ -12,13 +12,16 @@ months = [
     "November",
     "December"
 ]
+try:
+    #prompt user for date
+    date = input("Enter Date month day year or MM/DD/YYYY: ").upper().split('/')
+    m,d,y = date
+    print(y + "-" + m + "-" + d)
+except:
+    break
 
-#prompt user for date
-date = input("Enter Date month day year or MM/DD/YYYY: ").upper().split('/')
-m,d,y = date
-print(y + "-" + m + "-" + d)
-# for m in months:
-if m.upper() == months:
-    print("x")
-    # else:
-    #     print("y")
+    # for m in months:
+    # if m.upper() == months:
+    #     print("x")
+        # else:
+        #     print("y")
