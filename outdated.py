@@ -19,7 +19,7 @@ try:
         m,d,y = date.split("/")
         print(y + "-" + m + "-" + d)
     elif "," in date:
-        m,d,y = date.split(" ")
+        m,d,y = date.split(",")
         m = (months.index(m) + 1)
         print(m)
 except:
