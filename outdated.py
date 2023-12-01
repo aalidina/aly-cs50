@@ -17,13 +17,11 @@ months = [
 while True:
     date = input("Enter Date month day year or MM/DD/YYYY: ")
     try:
-        if "/" in date:
-            month,day,year = date.split("/")
-            year = year.replace(" ","")
-            # Check if month is between 1 and 12 and day is between 1 and 31
-            if (int(month) >= 1 and int(month) <= 12) and (int(day) >= 1 and int(day) <= 31):
-                
-                break
+        month,day,year = date.split("/")
+        year = year.replace(" ","")
+        # Check if month is between 1 and 12 and day is between 1 and 31
+        if (int(month) >= 1 and int(month) <= 12) and (int(day) >= 1 and int(day) <= 31):
+            break
     except:
         try:
             old_month,old_day,old_year = date.split(",")
