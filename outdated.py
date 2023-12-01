@@ -1,3 +1,4 @@
+# Create list with the name of all months
 months = [
     "January",
     "February",
@@ -12,28 +13,36 @@ months = [
     "November",
     "December"
 ]
-
-#prompt user for date
+# Loop forever
 while True:
-    date = input("Enter Date month day year or MM/DD/YYYY: ")
+    # Get user input
+    date = input("Date: ")
     try:
-        month,day,year = date.split("/")
-        year = year.replace(" ","")
-        # Check if month is between 1 and 12 and day is between 1 and 31
+        # Split the date by /
+        month, day, year = date.split("/")
+        year= year.replace(" ", "")
+        # Check if month is in between of 1 and 12 and day between 1 and 31
         if (int(month) >= 1 and int(month) <= 12) and (int(day) >= 1 and int(day) <= 31):
             break
     except:
         try:
-            old_month,old_day,year = date.split(" ")
+            # Split the date by space
+            old_month, old_day, year = date.split(" ")
+            # Find the number of the month
             for i in range(len(months)):
                 if old_month == months[i]:
                     month = i + 1
             # Remove comma from day variable
-            day = old_day.replace(",", "")
+            day = old_day.replace(",","")
+            # Check if month is in between of 1 and 12 and day between 1 and 31
             if (int(month) >= 1 and int(month) <= 12) and (int(day) >= 1 and int(day) <= 31):
                 break
         except:
+            # Go to the next line
             print()
             pass
 
+# If month is less than 10, add a 0 before
+# If day is less than 10, add a 0 before
+# Print the result
 print(f"{year}-{int(month):02}-{int(day):02}")
