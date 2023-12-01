@@ -22,7 +22,7 @@ while True:
             year = year.replace(" ","")
             # Check if month is between 1 and 12 and day is between 1 and 31
             if (int(month) >= 1 and int(month) <= 12) and (int(day) >= 1 and int(day) <= 31):
-                break
+                # break
     except:
         try:
             old_month,old_day,old_year = date.split(",")
