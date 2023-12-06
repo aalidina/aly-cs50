@@ -16,7 +16,6 @@ months = [
 #prompt user for date
 while True:
     date = input("Enter Date month day year or MM/DD/YYYY: ")
-    # if date == "," or "/":
     try:
         month,day,year = date.split("/")
         year = year.replace(" ","")
