@@ -1,4 +1,4 @@
 import emoji
 
 emoji = input("Enter a string")
-print
+print(emoji)
