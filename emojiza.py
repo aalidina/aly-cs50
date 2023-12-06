@@ -1,2 +1,4 @@
-pip install emoji
-x = input("Enter a string")
+import emoji
+
+emoji = input("Enter a string")
+print
