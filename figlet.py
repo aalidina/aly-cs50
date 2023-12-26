@@ -15,4 +15,4 @@ figlet.getFonts()
 figlet.setFont(font = sys.argv[2])
 
 # // Print the rendered text
-print(figlet.renderText(inp))
+print(figlet.renderText(input))
