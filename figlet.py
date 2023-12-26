@@ -1,5 +1,5 @@
 from pyfiglet import Figlet
 
-input = 
+input = input("Enter Test: ")
 
 figlet = Figlet()
