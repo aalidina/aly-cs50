@@ -1,8 +1,9 @@
 from pyfiglet import Figlet
 
+def font(arg1,arg2)
+    
+    input = input("Enter Text: ")
 
-input = input("Enter Text: ")
-
-print(input)
+    print(input)
 
 figlet = Figlet()
