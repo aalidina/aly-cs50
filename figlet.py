@@ -1,12 +1,5 @@
 from pyfiglet import Figlet
+import sys
 
-# figlet = Figlet()
-def font(arg1):
-    if arg1 == "Test":
-        return x
-
-    # input = input("Enter Text: ")
-
-    # print(input)
-
-font()
+if sys.argv[1] not in ["-f","--font"]:
+    sys.exit("Invalid usage")
