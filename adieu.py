@@ -1,2 +1,3 @@
-input = input("Enter Name: ")
-print("Adieu, adieu, to", input)
+while True:
+    input = input("Enter Name: ")
+    print("Adieu, adieu, to", input)
