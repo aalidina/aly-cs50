@@ -1,3 +1,3 @@
 while True:
-    input = input("Enter Name: ")
+    input = input("Name:")
     print("Adieu, adieu, to", input)
