@@ -2,4 +2,5 @@ x = []
 while True:
     name = input("Name:")
     x+= name
-    print("Adieu, adieu, to", x)
+    for i in x:
+        print("Adieu, adieu, to", x)
