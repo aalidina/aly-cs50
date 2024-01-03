@@ -1,4 +1,4 @@
-x = [""]
+x = []
 while True:
     name = input("Name:")
     x+= name
