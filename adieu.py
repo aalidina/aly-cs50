@@ -1,5 +1,5 @@
 x = [""]
 while True:
     name = input("Name:")
-    x= name + x
-    print("Adieu, adieu, to", name)
+    x+= name
+    print("Adieu, adieu, to", x)
