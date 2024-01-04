@@ -1,7 +1,7 @@
 import random
 
-x = 0
-while x <= 0:
+x = -1
+while x < 0:
     level = int(input("Level: "))
     y = random.randint(0, level)
 
