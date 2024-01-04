@@ -7,15 +7,15 @@ while x < 0:
 
     guess: int = -1
 
-while 1:
-    guess = int(input("Guess: "))
+    while 1:
+        guess = int(input("Guess: "))
 
-    if guess > 0 and guess < level:
+        if guess > 0 and guess < level:
 
-        if guess < y:
-            print("Too small!")
-        elif guess > y:
-            print("Too large!")
-        elif guess == y:
-            print("Just right!")
-            break
+            if guess < y:
+                print("Too small!")
+            elif guess > y:
+                print("Too large!")
+            elif guess == y:
+                print("Just right!")
+                break
