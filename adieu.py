@@ -3,7 +3,9 @@ import sys, inflect
 p = inflect.engine()
 x = []
 while True:
+    try:
     names = input("Name:")
     x.append(names)
-    # print(f"\nAdieu, adieu, to", x)
+    
+    except EOFError:
     print(f"\nAdieu, adieu, to {p.join(x)}")
