@@ -1,5 +1,5 @@
-x = {}
+x = []
 while True:
-    name = input("Name:")
-    x+= name
-    print("Adieu, adieu, to", x)
+    names = input("Name:")
+    x.append(names)
+    print("Adieu, adieu, to", x[0])
