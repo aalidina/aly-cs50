@@ -2,7 +2,7 @@ import random
 
 x = 0
 while x <= 0:
-    number = int(input("Enter a positive integrer: "))
+    number = int(input("Level: "))
     y = random.randint(1, 100)
     guess = int(input("Guess: "))
     if guess < y:
