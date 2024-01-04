@@ -9,6 +9,6 @@ while True:
         x.append(names)
     except EOFError:
         print(f"\nAdieu, adieu, to {p.join(x)}")
-      
+        break
 
 
