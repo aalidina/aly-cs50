@@ -2,8 +2,8 @@ import random
 
 x = 0
 while x <= 0:
-    number = int(input("Level: "))
-    y = random.randint(1, 100)
+    level = int(input("Level: "))
+    y = random.randint(0, level)
     guess = int(input("Guess: "))
 
     while guess > 0:
