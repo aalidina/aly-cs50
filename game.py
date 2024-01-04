@@ -5,6 +5,7 @@ while x <= 0:
     level = int(input("Level: "))
     y = random.randint(0, level)
 
+    guess: int = -1
 
     while 1:
         guess = int(input("Guess: "))
