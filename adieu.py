@@ -6,4 +6,4 @@ while True:
     names = input("Name:")
     x.append(names)
     # print(f"\nAdieu, adieu, to", x)
-     print(f"\nAdieu, adieu, to {p.join(x)}")
+    print(f"\nAdieu, adieu, to {p.join(x)}")
