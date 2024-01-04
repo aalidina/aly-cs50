@@ -6,7 +6,9 @@ while x <= 0:
     y = random.randint(0, level)
     guess = int(input("Guess: "))
 
-    while guess > 0:
+    while True:
+        if guess > 0 and guess < level:
+            
         if guess < y:
             print("Too small!")
         elif guess > y:
