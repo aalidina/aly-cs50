@@ -3,7 +3,7 @@ import sys, inflect
 p = inflect.engine()
 x = []
 
-while True:
+while 1:
     try:
         names = input("Name:")
 
@@ -14,4 +14,5 @@ while True:
 
     except EOFError:
         print(f"\nAdieu, adieu, to {p.join(x)}")
+
         break
