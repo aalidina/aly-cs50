@@ -9,3 +9,4 @@ while True:
 
     except EOFError:
         print(f"\nAdieu, adieu, to {p.join(x)}")
+        break
