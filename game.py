@@ -16,6 +16,6 @@ while 1:
             print("Too small!")
         elif guess > y:
             print("Too large!")
-        else:
+        elif guess == y:
             print("Just right!")
             break
