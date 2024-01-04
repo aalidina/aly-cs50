@@ -8,7 +8,7 @@ while x <= 0:
 
     while True:
         guess = int(input("Guess: "))
-        
+
         if guess > 0 and guess < level:
 
             if guess < y:
@@ -17,3 +17,4 @@ while x <= 0:
                 print("Too large!")
             else:
                 print("Just right!")
+                break
