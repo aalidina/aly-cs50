@@ -1,5 +1,4 @@
 
-while True:
+while number < 0:
     number = input("Enter a positive integrer: ")
-    if number < 0:
-        return
+    print(number)
