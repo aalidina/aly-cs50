@@ -2,6 +2,7 @@ import sys, inflect
 
 p = inflect.engine()
 x = []
+
 while True:
     try:
         names = input("Name:")
