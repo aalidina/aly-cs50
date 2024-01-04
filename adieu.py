@@ -5,4 +5,4 @@ x = []
 while True:
     names = input("Name:")
     x.append(names)
-    print(f"\nAdieu, adieu, to {p.join(names)}")
+    print(f"\nAdieu, adieu, to", names)
