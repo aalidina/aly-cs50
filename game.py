@@ -4,9 +4,11 @@ x = 0
 while x <= 0:
     level = int(input("Level: "))
     y = random.randint(0, level)
-    guess = int(input("Guess: "))
+
 
     while True:
+        guess = int(input("Guess: "))
+        
         if guess > 0 and guess < level:
 
             if guess < y:
