@@ -1,7 +1,7 @@
 import random
 
-x : int = -1
-while x < 0:
+level : int = -1
+while level < 0:
     level = int(input("Level: "))
     rand_num = random.randint(0, level)
 
@@ -18,7 +18,6 @@ while x < 0:
                 print("Too large!")
             elif guess ==  rand_num:
                 print("Just right!")
-                print(guess)
                 break
 
 
