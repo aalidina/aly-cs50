@@ -18,8 +18,8 @@ while level >= 1 and level <= 3:
         i += 1
 
         if math == result:
-            
             right += 1
+            print(right)
         elif math != result:
             wrong += 1
         print(f"total score {right}")
