@@ -23,7 +23,7 @@ while level < 0:
                 elif guess ==  rand_num:
                     print("Just right!")
                     break
-            except:
-                pass
+        except:
+            pass
 
 
