@@ -20,4 +20,5 @@ while level >= 1 and level <= 3:
             wrong += 1
     break
 print(f"total score {right}")
+print(right)
 
