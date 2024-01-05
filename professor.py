@@ -22,7 +22,7 @@ while level >= 1 and level <= 3:
             right += 1
         elif math != result:
             wrong += 1
-        break
+    break
 print(f"total score {right}")
-
+print(right)
 
