@@ -1,12 +1,13 @@
 import random
 
+
+
+def get_level():
 level : int = 0
 score = 0
 fail = 0
-
-def main()
     while level <= 1 or level > 3:
-        
+
         try:
             level = int(input("Level: "))
         except Exception:
@@ -33,5 +34,5 @@ def main()
         break
     print(f"total score {score}")
 
-main()
+get_level()
 
