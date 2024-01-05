@@ -1,6 +1,7 @@
 import random
 
 user = 1
-while user :
+while user == 1 :
     user = input("Level: ")
     print(user)
+    break
