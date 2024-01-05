@@ -6,10 +6,10 @@ while level >= 1 and level <= 3:
     x = rand_num = random.randint(1, 9)
     y = rand_num = random.randint(1, 9)
 
-i = 0
-while i < 9:
-    input = int(input(f"{x} + {y} = "))
-    i += 1
-    print(i)
-result = x+y
+    i = 0
+    while i < 9:
+        input = int(input(f"{x} + {y} = "))
+        i += 1
+        print(i)
+    result = x+y
 
