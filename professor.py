@@ -3,10 +3,10 @@ import random
 
 
 def get_level():
-    level: int = 0
+    choice: int = 0
     score = 0
     fail = 0
-    while level <= 1 or level > 3:
+    while choice <= 1 or choice > 3:
 
         try:
             level = int(input("Level: "))
