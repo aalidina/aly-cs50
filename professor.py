@@ -3,9 +3,9 @@ import random
 
 
 def get_level():
-level : int = 0
-score = 0
-fail = 0
+    level: int = 0
+    score = 0
+    fail = 0
     while level <= 1 or level > 3:
 
         try:
@@ -32,8 +32,8 @@ def main():
             fail += 1
             print("EEE")
 
-    break
-print(f"total score {score}")
+        break
+    print(f"total score {score}")
 
 
 
