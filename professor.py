@@ -20,6 +20,7 @@ while level >= 1 and level <= 3:
             score += 1
         elif math != result:
             fail += 1
+            print("EEE")
 
     break
 print(f"total score {score}")
