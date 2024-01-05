@@ -8,7 +8,6 @@ while level >= 1 and level <= 3:
 
 
     i = 0
-
     while i < 1:
 
         x = rand_num = random.randint(1, 9)
@@ -16,7 +15,7 @@ while level >= 1 and level <= 3:
         math = input(f"{x} + {y} = ")
         result = x+y
         i += 1
-
+        print(math,result )
         if math == result:
             right += 1
             print(right)
