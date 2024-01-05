@@ -21,7 +21,6 @@ while level < 0:
                 print("Too large!")
             elif guess ==  rand_num:
                 print("Just right!")
-                print(guess)
                 break
 
 
