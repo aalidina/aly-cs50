@@ -1,7 +1,8 @@
 import random
 
-user = 1
-while user == 1 :
+
+while True:
     user = input("Level: ")
-    print(user)
-    break
+    if user == 1 or user == 2 or user == 3:
+        print(user)
+        break
