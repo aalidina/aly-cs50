@@ -8,7 +8,7 @@ while level <= 1 or level > 3:
         user = int(input("Level: "))
     except Exception:
         pass
-        return level
+
 
 
     i = 0
