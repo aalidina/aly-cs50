@@ -16,7 +16,7 @@ fail = 0
 
 
 def main():
-    get_level()
+    level: int = get_level()
     i = 0
     while i < 10:
 
