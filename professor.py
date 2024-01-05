@@ -11,7 +11,6 @@ while level >= 1 and level <= 3:
         y = rand_num = random.randint(1, 9)
         math = input(f"{x} + {y} = ")
         i += 1
-        print(i)
         break
     result = x+y
 
