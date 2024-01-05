@@ -3,7 +3,7 @@ import random
 x : int = -1
 while x < 0:
     level = int(input("Level: "))
-    y = random.randint(0, level)
+    rand_num = random.randint(0, level)
 
     guess: int = -1
 
@@ -12,10 +12,10 @@ while x < 0:
 
         if guess > 0 and guess < level:
 
-            if guess < y:
+            if guess <  rand_num:
                 print("Too small!")
-            elif guess > y:
+            elif guess >  rand_num:
                 print("Too large!")
-            elif guess == y:
+            elif guess ==  rand_num:
                 print("Just right!")
                 break
