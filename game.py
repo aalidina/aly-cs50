@@ -4,7 +4,7 @@ level : int = -1
 while level < 0:
     try:
         level = int(input("Level: "))
-    except:
+    except ValueError:
         pass
     rand_num = random.randint(0, level)
 
