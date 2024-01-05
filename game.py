@@ -1,6 +1,6 @@
 import random
 
-level = int(-1)
+level : int = -1
 while level < 0:
     level = int(input("Level: "))
     rand_num = random.randint(0, level)
