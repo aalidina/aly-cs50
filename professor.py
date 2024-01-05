@@ -6,8 +6,8 @@ fail = 0
 while level <= 1 or level > 3:
     try:
         level = int(input("Level: "))
-    except Exception:
-        pass
+    except Exception: pass
+return level
 
 
 
@@ -27,5 +27,5 @@ while level <= 1 or level > 3:
             print("EEE")
 
     break
-print(f"total score {score}")
+    print(f"total score {score}")
 
