@@ -7,7 +7,8 @@ while level >= 1 and level <= 3:
     y = rand_num = random.randint(1, 9)
 
     input = input(f"{x} + {y} = ")
-    if x + y == input:
-        print("{x}+{y} is correct")
-    else:
-        print("Please try again")
+    print(f"{x}+{y}")
+    # if x + y == input:
+    #     print("{x}+{y} is correct")
+    # else:
+    #     print("Please try again")
