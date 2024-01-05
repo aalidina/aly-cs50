@@ -2,7 +2,11 @@ import random
 
 level : int = -1
 while level < 0:
-    level = int(input("Level: "))
+    try:
+        level = int(input("Level: "))
+    except:
+        pass
+
     rand_num = random.randint(0, level)
 
     guess: int = -1
