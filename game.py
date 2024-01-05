@@ -4,11 +4,10 @@ level : int = -1
 while level < 0:
     try:
         level = int(input("Level: "))
-        rand_num = random.randint(0, level)
     except:
         pass
 
-
+    rand_num = random.randint(0, level)
     guess: int = -1
     while 1:
         try:
