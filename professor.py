@@ -6,11 +6,19 @@ while level >= 1 and level <= 3:
 
 
     i = 0
+    right = 0
+    wrong = 0
+
     while i < 9:
         x = rand_num = random.randint(1, 9)
         y = rand_num = random.randint(1, 9)
         math = input(f"{x} + {y} = ")
+        result = x+y
         i += 1
-        break
-    result = x+y
+        if math == result:
+            right += 1
+        elif math != result:
+            wrong += 1
+    break
+print("total right)
 
