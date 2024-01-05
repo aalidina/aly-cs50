@@ -21,7 +21,6 @@ while level >= 1 and level <= 3:
         elif math != result:
             fail += 1
 
-        print(f"total score {score}")
     break
-
+print(f"total score {score}")
 
