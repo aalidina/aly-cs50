@@ -4,7 +4,10 @@ level = 1
 score = 0
 fail = 0
 while level >= 1 and level <= 3:
-    user = int(input("Level: "))
+    try:
+        user = int(input("Level: "))
+    except ValueError:
+        pass
 
 
     i = 0
