@@ -20,5 +20,5 @@ while level >= 1 and level <= 3:
         elif math != result:
             wrong += 1
     break
-print("total score {right}")
+print(f"total score {right}")
 
