@@ -8,7 +8,6 @@ while level >= 1 and level <= 3:
     i = 0
     right = 0
     wrong = 0
-
     while i < 9:
         x = rand_num = random.randint(1, 9)
         y = rand_num = random.randint(1, 9)
