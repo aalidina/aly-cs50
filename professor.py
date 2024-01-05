@@ -17,11 +17,11 @@ while level >= 1 and level <= 3:
         result = x+y
         i += 1
 
-        if math == result:
-            print("Correct")
-            right += 1
-        elif math != result:
-            wrong += 1
+    if math == result:
+        print("Correct")
+        right += 1
+    elif math != result:
+        wrong += 1
     break
 print(f"total score {right}")
 print(right)
