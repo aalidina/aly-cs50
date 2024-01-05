@@ -1,11 +1,11 @@
 import random
 
-level = 0
+level : int = 0
 score = 0
 fail = 0
 while level <= 1 or level > 3:
     try:
-        user = int(input("Level: "))
+        level = int(input("Level: "))
     except Exception:
         pass
 
