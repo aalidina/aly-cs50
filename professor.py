@@ -3,11 +3,12 @@ import random
 level = 1
 score = 0
 fail = 0
-while level >= 1 and level <= 3:
+while level <= 1 or level > 3:
     try:
         user = int(input("Level: "))
-    except ValueError:
+    except Exception:
         pass
+        return level
 
 
     i = 0
