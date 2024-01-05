@@ -1,6 +1,6 @@
 import random
 
-level = 1
+level = 0
 score = 0
 fail = 0
 while level <= 1 or level > 3:
