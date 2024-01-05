@@ -1,14 +1,14 @@
 import random
 
 level = 1
-
+right = 0
+wrong = 0
 while level >= 1 and level <= 3:
     user = int(input("Level: "))
 
 
     i = 0
-    right = 0
-    wrong = 0
+
     while i < 1:
 
         x = rand_num = random.randint(1, 9)
