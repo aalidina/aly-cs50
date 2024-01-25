@@ -21,7 +21,7 @@ while level < 0:
                 elif guess ==  rand_num:
                     print("Just right!")
                     break
-
+                    raise 
     except ValueError:
         pass
 
