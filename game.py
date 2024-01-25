@@ -22,7 +22,7 @@ while guess < 0:
                 print("Too large!")
             elif guess ==  rand_num:
                 print("Just right!")
-                break
+
     except ValueError:
         pass
 
