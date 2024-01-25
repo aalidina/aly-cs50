@@ -10,7 +10,7 @@ while level < 0:
         pass
 
 guess: int = -1
-while True:
+while guess < 0:
     try:
         guess = int(input("Guess: "))
 
