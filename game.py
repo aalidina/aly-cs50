@@ -8,7 +8,7 @@ while level < 0:
         rand_num = random.randint(1, level)
 
         guess: int = -1
-        while guess < 0:
+        while True:
 
             guess = int(input("Guess: "))
 
