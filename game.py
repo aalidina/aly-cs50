@@ -2,12 +2,14 @@ import random
 
 level : int = -1
 while level < 0:
+    try:
+        level = int(input("Level: "))
 
-    level = int(input("Level: "))
-
-    level1 = random.randint(0, 5)
-    level2 = random.randint(5, 10)
-    level3 = random.randint(10, 15)
+        level1 = random.randint(0, 5)
+        level2 = random.randint(5, 10)
+        level3 = random.randint(10, 15)
+    except:
+        pass
 
     rand_num = random.randint(1, level)
     guess: int = -1
