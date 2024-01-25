@@ -8,15 +8,13 @@ while level < 0:
         level1 = random.randint(0, 5)
         level2 = random.randint(5, 10)
         level3 = random.randint(10, 15)
+
         rand_num = random.randint(1, level)
-    except ValueError:
-        pass
 
+        guess: int = -1
 
-    guess: int = -1
+    while True:
 
-while True:
-    try:
         guess = int(input("Guess: "))
 
         if guess > 0 and guess <= 5:
@@ -28,6 +26,8 @@ while True:
             elif guess ==  rand_num:
                 print("Just right!")
                 break
-    except:
+
+    except ValueError:
         pass
+
 
