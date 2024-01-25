@@ -24,7 +24,7 @@ while level < 0:
     except ValueError:
         pass
     except EOFError:
-        pass
+        break
 
 
 
