@@ -20,9 +20,10 @@ while level < 0:
                     print("Too large!")
                 elif guess ==  rand_num:
                     print("Just right!")
-                    break
-                    raise 
+                    raise EOFError
     except ValueError:
+        pass
+    except EOFError:
         pass
 
 
