@@ -12,15 +12,15 @@ while level < 0:
 
             guess = int(input("Guess: "))
 
-            if guess > 0 and guess <= 5:
+            # if guess > 0 and guess <= 5:
 
-                if guess <  rand_num:
-                    print("Too small!")
-                elif guess >  rand_num:
-                    print("Too large!")
-                elif guess ==  rand_num:
-                    print("Just right!")
-                    raise EOFError
+            if guess <  rand_num:
+                print("Too small!")
+            elif guess >  rand_num:
+                print("Too large!")
+            elif guess ==  rand_num:
+                print("Just right!")
+                raise EOFError
     except ValueError:
         pass
     except EOFError:
