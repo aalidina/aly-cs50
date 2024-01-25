@@ -10,11 +10,11 @@ while level < 0:
         pass
 
 guess: int = -1
-while guess < 0:
+while True:
     try:
         guess = int(input("Guess: "))
 
-        if guess > 0 and guess <= 5:
+        if guess > 0:
 
             if guess <  rand_num:
                 print("Too small!")
