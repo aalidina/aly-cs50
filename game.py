@@ -5,7 +5,7 @@ while level < 0:
 
     level = int(input("Level: "))
 
-    level 1 = [1]
+    level 1 = 5
 
     rand_num = random.randint(0, 5)
     guess: int = -1
