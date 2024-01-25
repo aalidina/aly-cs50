@@ -8,7 +8,7 @@ while level < 0:
         level1 = random.randint(0, 5)
         level2 = random.randint(5, 10)
         level3 = random.randint(10, 15)
-    except:
+    except ValueError:
         pass
 
     rand_num = random.randint(1, level)
