@@ -1,12 +1,12 @@
 import random
 
 def main():
-    i = 0
+    i = 10
     choice: int = 0
     score = 0
     fail = 0
     lvl = get_level()
-    while choice <= 1 or choice > 3:
+    while i != 0:
 
         x = rand_num = random.randint(1, 9)
         y = rand_num = random.randint(1, 9)
