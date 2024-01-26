@@ -31,8 +31,8 @@ while choice <= 1 or choice > 3:
         elif math != result:
             fail += 1
             print("EEE")
-        break
-    print(f"total score {score}")
+    break
+print(f"total score {score}")
 
 
 # main()
