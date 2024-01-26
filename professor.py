@@ -35,8 +35,8 @@ def get_level():
 
 def generate_integer(level):
     if level == 1:
-        x = rand_num = random.randint(1, 9)
-        y = rand_num = random.randint(1, 9)
+        x = rand_num = random.randint(0, 9)
+        y = rand_num = random.randint(0, 9)
     elif level == 2:
         x = rand_num = random.randint(10, 99)
         y = rand_num = random.randint(10, 99)
