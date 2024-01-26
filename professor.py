@@ -26,8 +26,8 @@ def get_level():
     while True:
         try:
             level = int(input("Level: "))
-            if 1 <= n <= 3:
-                return n
+            if 1 <= level <= 3:
+                return level
         except Exception:
             pass
             # return level
