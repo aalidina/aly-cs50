@@ -6,7 +6,7 @@ def main():
     score = 0
     fail = 0
     lvl = get_level()
-    while i < 2:
+    while choice <= 1 or choice > 3:
 
         x = rand_num = random.randint(1, 9)
         y = rand_num = random.randint(1, 9)
@@ -23,10 +23,11 @@ def main():
     print(f"total score {score}")
 
 def get_level():
-    while choice <= 1 or choice > 3:
-
+    while True:
         try:
             level = int(input("Level: "))
         except Exception:
             pass
             # return level
+
+    
