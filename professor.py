@@ -18,7 +18,7 @@ while choice <= 1 or choice > 3:
 # def main():
 # level: int = get_level()
     i = 0
-    while i < 10:
+    while i < 2:
 
         x = rand_num = random.randint(1, 9)
         y = rand_num = random.randint(1, 9)
@@ -31,7 +31,7 @@ while choice <= 1 or choice > 3:
         elif math != result:
             fail += 1
             print("EEE")
-            break
+        break
     print(f"total score {score}")
 
 
