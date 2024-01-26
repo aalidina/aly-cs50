@@ -8,7 +8,7 @@ def main():
     lvl = get_level()
     while i < 5:
 
-        gi = generate_integer(level)
+        x, y = generate_integer(lvl)
         math = int(input(f"{x} + {y} = "))
         result = x+y
         i += 1
