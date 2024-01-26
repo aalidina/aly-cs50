@@ -7,19 +7,20 @@ def main():
     fail = 0
     lvl = get_level()
     while i < 10:
+        try:
+            x, y = generate_integer(lvl)
+            math = int(input(f"{x} + {y} = "))
+            result = x+y
+            i += 1
 
-        x, y = generate_integer(lvl)
-        math = int(input(f"{x} + {y} = "))
-        result = x+y
-        i += 1
-
-        if math == result:
-            score += 1
-        elif math != result:
-            fail += 1
-            print("EEE")
-            break
-    print(f"total score {score}")
+            if math == result:
+                score += 1
+            elif math != result:
+                fail += 1
+    except ValueError:
+        print("EEE")
+        break
+print(f"total score {score}")
 
 def get_level():
     while True:
