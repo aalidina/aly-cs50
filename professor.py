@@ -6,7 +6,7 @@ def main():
     score = 0
     fail = 0
     lvl = get_level()
-    while i < 5:
+    while i < 10:
 
         x, y = generate_integer(lvl)
         math = int(input(f"{x} + {y} = "))
