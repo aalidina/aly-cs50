@@ -8,8 +8,7 @@ def main():
     lvl = get_level()
     while i < 5:
 
-        x = rand_num = random.randint(1, 9)
-        y = rand_num = random.randint(1, 9)
+        gi = generate_integer(level)
         math = int(input(f"{x} + {y} = "))
         result = x+y
         i += 1
@@ -31,6 +30,19 @@ def get_level():
         except Exception:
             pass
             # return level
+
+def generate_integer(level):
+    if level == 1:
+        x = rand_num = random.randint(1, 9)
+        y = rand_num = random.randint(1, 9)
+    elif level == 2:
+        x = rand_num = random.randint(10, 99)
+        y = rand_num = random.randint(10, 99)
+    elif level == 3:
+        x = rand_num = random.randint(100, 999)
+        y = rand_num = random.randint(100, 999)
+    else:
+        return x,y
 
 if __name__ == "__main__":
     main()
