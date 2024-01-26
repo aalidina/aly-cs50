@@ -18,6 +18,7 @@ def main():
             elif math != result:
                 fail += 1
         except ValueError:
+            fail -= 1
             print("EEE")
             pass
     print(f"total score {score}")
