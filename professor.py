@@ -12,7 +12,6 @@ def main():
             level = int(input("Level: "))
             x: int = get_level()
             print(f"total score {score}")
-            break
         except Exception:
             pass
             # return level
