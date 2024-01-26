@@ -41,8 +41,7 @@ def generate_integer(level):
     elif level == 3:
         x = rand_num = random.randint(100, 999)
         y = rand_num = random.randint(100, 999)
-    else:
-        return x,y
+    return x,y
 
 if __name__ == "__main__":
     main()
