@@ -19,7 +19,7 @@ def main():
         elif math != result:
             fail += 1
             print("EEE")
-        break
+        # break
     print(f"total score {score}")
 
 def get_level():
