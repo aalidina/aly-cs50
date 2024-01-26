@@ -12,7 +12,7 @@ while choice <= 1 or choice > 3:
         level = int(input("Level: "))
     except Exception:
         pass
-        return level
+        # return level
 
 
 # def main():
@@ -33,7 +33,7 @@ while choice <= 1 or choice > 3:
             print("EEE")
 
         break
-    print(f"total score {score}")
+print(f"total score {score}")
 
 
 # main()
