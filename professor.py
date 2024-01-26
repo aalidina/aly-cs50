@@ -16,7 +16,7 @@ def get_level():
 
 
 def main():
-    x: int = get_level()
+    # x: int = get_level()
     i = 0
     while i < 2:
 
