@@ -11,6 +11,7 @@ def main():
         try:
             level = int(input("Level: "))
             x: int = get_level()
+            print(f"total score {score}")
         except Exception:
             pass
             # return level
@@ -33,8 +34,6 @@ def get_level():
             fail += 1
             print("EEE")
         break
-    print(f"total score {score}")
-
 
 if __name__ == "__main__":
     main()
