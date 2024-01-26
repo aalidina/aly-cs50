@@ -16,7 +16,7 @@ def get_level():
 
 
 def main():
-    level: int = get_level()
+    x: int = get_level()
     i = 0
     while i < 2:
 
@@ -31,8 +31,8 @@ def main():
         elif math != result:
             fail += 1
             print("EEE")
-    break
-print(f"total score {score}")
+        break
+    print(f"total score {score}")
 
 
 main()
