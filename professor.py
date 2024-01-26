@@ -12,7 +12,7 @@ while choice <= 1 or choice > 3:
         level = int(input("Level: "))
     except Exception:
         pass
-        # return level
+        return level
 
 
 # def main():
