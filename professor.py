@@ -2,7 +2,7 @@ import random
 
 
 
-def get_level():
+def main():
     choice: int = 0
     score = 0
     fail = 0
@@ -10,13 +10,14 @@ def get_level():
 
         try:
             level = int(input("Level: "))
+            x: int = get_level()
         except Exception:
             pass
             # return level
 
 
-def main():
-    # x: int = get_level()
+def get_level():
+
     i = 0
     while i < 2:
 
@@ -35,4 +36,5 @@ def main():
     print(f"total score {score}")
 
 
-main()
+if __name__ == "__main__":
+    main()
