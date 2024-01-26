@@ -17,10 +17,10 @@ def main():
                 score += 1
             elif math != result:
                 fail += 1
-    except ValueError:
-        print("EEE")
-        break
-print(f"total score {score}")
+        except ValueError:
+            print("EEE")
+            pass
+    print(f"total score {score}")
 
 def get_level():
     while True:
