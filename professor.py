@@ -30,4 +30,5 @@ def get_level():
             pass
             # return level
 
-    
+if __name__ == "__main__":
+    main()
