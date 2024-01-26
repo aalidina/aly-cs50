@@ -14,7 +14,7 @@ while True:
     try:
         guess = int(input("Guess: "))
 
-        if guess > 0:
+        if guess > -1:
 
             if guess <  rand_num:
                 print("Too small!")
