@@ -2,21 +2,21 @@ import random
 
 
 
-# def get_level():
-choice: int = 0
-score = 0
-fail = 0
-while choice <= 1 or choice > 3:
+def get_level():
+    choice: int = 0
+    score = 0
+    fail = 0
+    while choice <= 1 or choice > 3:
 
-    try:
-        level = int(input("Level: "))
-    except Exception:
-        pass
-        # return level
+        try:
+            level = int(input("Level: "))
+        except Exception:
+            pass
+            # return level
 
 
-# def main():
-# level: int = get_level()
+def main():
+    level: int = get_level()
     i = 0
     while i < 2:
 
@@ -35,4 +35,4 @@ while choice <= 1 or choice > 3:
 print(f"total score {score}")
 
 
-# main()
+main()
