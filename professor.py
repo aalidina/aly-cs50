@@ -13,16 +13,18 @@ def main():
         try:
             math = int(input(f"{x} + {y} = "))
             result = x+y
-            i += 1
 
             if math == result:
                 score += 1
+                i += 1
+                chances = 3
             elif math != result:
                 fail += 1
+                chances -= -1
         except ValueError:
             print("EEE")
             pass
-        if chance == 0:
+        if chances == 0:
             print((f"{x} + {y} = {result}"))
             chances = 3
             i -= -1
