@@ -4,7 +4,7 @@ def main():
     i = 0
     choice: int = 0
     score = 0
-    # fail = 0
+    fail = 0
     chance = 3
     lvl = get_level()
     while i < 10:
