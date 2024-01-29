@@ -19,9 +19,8 @@ def main():
                 score += 1
                 i += 1
                 chances = 3
-            elif math != result:
-                fail += 1
-                chances -= -1
+            # elif math != result:
+            #     chances -= -1
         except ValueError:
             print("EEE")
             pass
