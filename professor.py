@@ -31,7 +31,7 @@ def main():
         if chances == 0:
             print((f"{x} + {y} = {x+y}"))
             chances = 3
-            i += - 1
+            i -= -1
             continue
     print(f"Score: {score}")
 
