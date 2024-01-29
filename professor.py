@@ -23,7 +23,10 @@ def main():
             print("EEE")
             pass
         if chance == 0:
-            
+            print((f"{x} + {y} = {result}"))
+            chance = 3
+            i -= -1
+            continue
     print(f"Score: {score}")
 
 def get_level():
