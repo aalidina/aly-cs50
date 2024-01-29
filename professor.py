@@ -22,18 +22,18 @@ def main():
                 continue
             elif math != result:
                 chances -= -1
-                if chances == 0:
-                    print((f"{x} + {y} = {result}"))
-                    chances = 3
-                    i -= -1
-                    continue
-            # else:
-            #     raise ValueError
+            else:
+                raise ValueError
         except (ValueError, NameError):
             print("EEE")
             chances -= -1
+            print({chances})
             pass
-
+        if chances == 0:
+            print((f"{x} + {y} = {result}"))
+            chances = 3
+            i -= -1
+            continue
     print(f"Score: {score}")
 
 def get_level():
