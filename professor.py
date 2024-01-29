@@ -19,6 +19,7 @@ def main():
                 score += 1
                 i += 1
                 chances = 3
+                continue
             elif math != result:
                 chances -= -1
         except ValueError:
