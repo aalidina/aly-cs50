@@ -22,6 +22,8 @@ def main():
         except ValueError:
             print("EEE")
             pass
+        if chance == 0:
+            
     print(f"Score: {score}")
 
 def get_level():
