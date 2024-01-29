@@ -24,6 +24,7 @@ def main():
                 chances -= -1
         except ValueError:
             print("EEE")
+            chances -= -1
             pass
         if chances == 0:
             print((f"{x} + {y} = {result}"))
