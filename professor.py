@@ -21,13 +21,13 @@ def main():
                 chances = 3
                 continue
             elif math != result:
-                chances -= -1
+                chances += - 1
                 print(chances)
             else:
                 raise ValueError
         except (ValueError, NameError):
             print("EEE")
-            chances += -1
+            chances += - 1
             pass
         if chances == 0:
             print((f"{x} + {y} = {result}"))
