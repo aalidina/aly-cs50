@@ -4,11 +4,13 @@ def main():
     i = 0
     choice: int = 0
     score = 0
-    fail = 0
+    # fail = 0
+    chance = 3
     lvl = get_level()
     while i < 10:
-        try:
+        if chance == 3:
             x, y = generate_integer(lvl)
+        try:
             math = int(input(f"{x} + {y} = "))
             result = x+y
             i += 1
