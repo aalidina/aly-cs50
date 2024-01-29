@@ -1,8 +1,9 @@
 import random
 
 def main():
+
+    # choice: int = 0
     i = 0
-    choice: int = 0
     score = 0
     fail = 0
     chances = 3
