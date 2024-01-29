@@ -20,7 +20,7 @@ def main():
         except ValueError:
             print("EEE")
             pass
-    print(f"score: {score}")
+    print(f"Score: {score}")
 
 def get_level():
     while True:
