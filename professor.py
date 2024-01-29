@@ -29,7 +29,7 @@ def main():
             chances += - 1
             pass
         if chances == 0:
-            print((f"{x} + {y} = {result}"))
+            print((f"{x} + {y} = {x+y}"))
             chances = 3
             i -= -1
             continue
