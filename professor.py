@@ -21,7 +21,7 @@ def main():
             i -= 1
             print("EEE")
             pass
-    print(f"total score {score}")
+    print(f"score {score}")
 
 def get_level():
     while True:
