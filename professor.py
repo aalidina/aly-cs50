@@ -5,7 +5,6 @@ def main():
     # choice: int = 0
     i = 0
     score = 0
-    fail = 0
     chances = 3
     lvl = get_level()
     while i < 10:
@@ -44,7 +43,7 @@ def get_level():
                 return level
         except Exception:
             pass
-            # return level
+
 
 def generate_integer(level):
     if level == 1:
