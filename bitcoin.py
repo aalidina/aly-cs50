@@ -1,4 +1,4 @@
 
 number = float(input("Enter number of Bitcoin: "))
-amount = number * 38761.0833
-print(float(amount))
+amount = number * 38,761.0833
+print("$", float(amount))
