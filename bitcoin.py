@@ -13,7 +13,7 @@ import sys
 #     print("Missing Command Line Argument")
 try:
     number = float(input("Enter number of Bitcoin: "))
-    print(sys.argv[1])
+    # print(sys.argv[1])
 
     if type(number) != float:
          print("Command-line argument is not a number")
