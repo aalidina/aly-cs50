@@ -21,5 +21,5 @@ try:
         print(f"${amount:,.4f}")
 
 except (ValueError, requests.RequestException):
-    print("Missing command-line Argument")
+     print("Command-line argument is not a number")
 
