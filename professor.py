@@ -22,6 +22,7 @@ def main():
                 continue
             elif math != result:
                 chances += - 1
+                print("EEE")
             else:
                 raise ValueError
         except (ValueError, NameError):
