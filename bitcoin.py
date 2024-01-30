@@ -12,9 +12,14 @@ import sys
 # elif number == "":
 #     print("Missing Command Line Argument")
 try:
-    number = float(input("Enter number of Bitcoin: "))
-    amount = number * 38761.0833
-    print(f"${amount:,.4f}")
+    number = int(input("Enter number of Bitcoin: "))
+
+    if type(number) != int:
+         print("Command-line argument is not a number")
+    else:
+        amount = number * 38761.0833
+        print(f"${amount:,.4f}")
+
 except (ValueError, requests.RequestException):
-    print("Missing Command Line Argument")
+    print("Missing command-line Argument")
 
