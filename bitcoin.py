@@ -2,7 +2,7 @@
 import requests
 
 number = float(input("Enter number of Bitcoin: "))
-if number != int:
+if type(number) != int:
     print("Command-line argument is not a number")
 elif number == "":
     print("Missing Command Line Argument")
