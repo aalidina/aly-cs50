@@ -1,2 +1,3 @@
 
-buy = input("")
+buy = intinput("")
+if
