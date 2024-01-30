@@ -3,11 +3,11 @@ import random
 def main():
 
     # choice: int = 0
-    i = 0
+    problems = 0
     score = 0
     chances = 3
     lvl = get_level()
-    while i < 10:
+    while problems < 10:
         if chances == 3:
             x, y = generate_integer(lvl)
         try:
@@ -16,7 +16,7 @@ def main():
 
             if math == result:
                 score += 1
-                i += 1
+                problems += 1
                 chances = 3
                 continue
             elif math != result:
@@ -31,7 +31,7 @@ def main():
         if chances == 0:
             print((f"{x} + {y} = {x+y}"))
             chances = 3
-            i -= -1
+            problems -= -1
             continue
     print(f"Score: {score}")
 
