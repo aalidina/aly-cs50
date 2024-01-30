@@ -2,9 +2,9 @@
 import requests
 
 number = float(input("Enter number of Bitcoin: "))
-if number != "":
+if number != int:
     print("Command-line argument is not a number")
-elif number == " ":
+elif number == "":
     print("Missing Command Line Argument")
 try:
     amount = number * 38761.0833
