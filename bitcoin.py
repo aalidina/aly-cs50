@@ -13,3 +13,4 @@ try:
         print(f"${amount:,.4f}")
 except requests.RequestException:
     print("Missing Command Line Argument")
+
