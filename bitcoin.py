@@ -6,7 +6,7 @@ from sys import argv
 
 
 # args = sys.argv[1:]
-# print(len(sys.argv))
+print(sys.argv[1])
 if int(argv[1]) < 0:
      sys.exit("Missing Command Line Argument")
 elif int(argv[1]) != int:
