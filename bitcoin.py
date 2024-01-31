@@ -6,10 +6,12 @@ import sys
 
 # args = sys.argv[1:]
 print(len(sys.argv))
-if len(sys.argv) == 0:
+if len(sys.argv) <= 1:
      print("Missing Command Line Argument")
      sys.exit("Command-line argument is not a number")
-
+elif len(sys.argv) <= 1:
+     print("Missing Command Line Argument")
+     sys.exit("Command-line argument is not a number")
 # number = float(input("Enter number of Bitcoin: "))
 
 # print(sys.argv[1])
