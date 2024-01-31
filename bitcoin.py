@@ -2,10 +2,11 @@
 import requests
 import sys
 
-print(sys.argv[0])
 
-if sys.argv[1] not in ["-f", "-font"]:
+if sys.argv[1] not == "":
      print("Missing Command Line Argument")
+
+ number = float(input("Enter number of Bitcoin: "))
 
 
 # if type(number) != int:
