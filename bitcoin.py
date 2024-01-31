@@ -4,6 +4,7 @@ import sys
 
 args = sys.argv[1:]
 number = float(input("Enter number of Bitcoin: "))
+
 if len(args) == 0:
      print("Missing Command Line Argument")
 
