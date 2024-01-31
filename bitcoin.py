@@ -8,7 +8,7 @@ from sys import argv
 # args = sys.argv[1:]
 
 if int(sys.argv) < 0:
-     print(sys.argv[1])
+     print(sys.argv)
      sys.exit("Missing Command Line Argument")
 elif int(sys.argv) != int:
      sys.exit("Command-line argument is not a number")
