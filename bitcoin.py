@@ -2,9 +2,12 @@
 import requests
 import sys
 
+
+
 args = sys.argv[1:]
 number = float(input("Enter number of Bitcoin: "))
 print(sys.argv[1])
+
 if len(args) == 0:
      print("Missing Command Line Argument")
      sys.exit("Command-line argument is not a number")
