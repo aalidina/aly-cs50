@@ -9,7 +9,7 @@ from sys import argv
 print(len(sys.argv))
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
-elif int(sys.argv[1]) != int:
+elif arg.isdigit():
      sys.exit("Command-line argument is not a number")
 
 
