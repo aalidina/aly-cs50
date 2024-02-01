@@ -13,7 +13,7 @@ print(len(sys.argv[1]) )
 
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
-elif len(sys.argv[1]) > 2:
+elif (sys.argv[1]) ==:
      sys.exit("Command-line argument is not a number")
 
 # try:
