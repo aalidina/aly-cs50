@@ -13,11 +13,9 @@ if len(sys.argv) <= 1:
 elif not code.isdigit():
      sys.exit("Command-line argument is not a number")
 
-
-
-# if len(sys.argv) == 0:
-#      print("Missing Command Line Argument")
-#      sys.exit("Command-line argument is not a number")
+number = float(input("Enter number of Bitcoin: "))
+amount = number * 38761.0833
+print(f"${amount:,.4f}")
 
 
 
