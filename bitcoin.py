@@ -8,7 +8,7 @@ from sys import argv
 # args = sys.argv[1:]
 
 code = float(sys.argv[1])
-print(len(sys.argv))
+print(len(sys.argv[1]))
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
 elif code != float:
