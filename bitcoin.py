@@ -5,6 +5,8 @@ import json
 from sys import argv
 
 
+req = request.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+data = req.json()
 
 
 if len(sys.argv) <= 1:
