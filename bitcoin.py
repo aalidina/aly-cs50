@@ -8,7 +8,7 @@ from sys import argv
 # args = sys.argv[1:]
 
 
-# print((sys.argv[1]))
+print(len(sys.argv) )
 # arg = float(sys.argv[1])
 
 if len(sys.argv) <= 1:
