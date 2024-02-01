@@ -9,6 +9,7 @@ from sys import argv
 
 
 # print((sys.argv[1]))
+# arg = float(sys.argv[1])
 
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
