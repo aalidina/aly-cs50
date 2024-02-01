@@ -14,11 +14,13 @@ if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
 elif sys.argv[1] == "":
      sys.exit("Command-line argument is not a number")
+elif float(sys.argv[1]) == float:
+     amount = float(sys.argv[1]) * 38761.0833
+     print(f"${amount:,.4f}")
 
-arg = float(sys.argv[1])
-amount = arg * 38761.0833
-print(f"${amount:,.4f}")
 
+
+# arg = float(sys.argv[1])
 
 
 
