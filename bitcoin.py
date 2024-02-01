@@ -8,7 +8,7 @@ from sys import argv
 req = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 data = req.json()
 usd = data["bpi"]["USD"]["rate_float"]
-print(usd)
+
 # result = float(usd) * float(gcoin)
 # #     print(gcoin)
 # #     print(f"${result:,.4f}")
