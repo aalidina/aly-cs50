@@ -8,19 +8,17 @@ from sys import argv
 # args = sys.argv[1:]
 
 
-print(len(sys.argv[1]) )
+# print(len(sys.argv[1]) )
 # arg = float(sys.argv[1])
 
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
-elif (sys.argv[1]) ==:
-     sys.exit("Command-line argument is not a number")
 
-# try:
-#      amount = float(sys.argv[1]) * 38761.0833
-#      print(f"${amount:,.4f}")
-# except ValueError:
-#      print("Command-line argument is not a number")
+try:
+     amount = float(sys.argv[1]) * 38761.0833
+     print(f"${amount:,.4f}")
+except ValueError:
+     print("Command-line argument is not a number")
 
 
 
