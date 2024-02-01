@@ -8,9 +8,10 @@ from sys import argv
 req = request.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 data = req.json()
 usd = data["bpi"]["USD"]["rate_float"]
-result = float(usd) * float(gcoin)
-#     print(gcoin)
-#     print(f"${result:,.4f}")
+print(data)
+# result = float(usd) * float(gcoin)
+# #     print(gcoin)
+# #     print(f"${result:,.4f}")
 
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
