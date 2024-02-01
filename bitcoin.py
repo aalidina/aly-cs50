@@ -6,11 +6,12 @@ from sys import argv
 
 
 # args = sys.argv[1:]
-# print(len(sys.argv))
+
 code = float(sys.argv[1])
+print(len(sys.argv))
 if len(sys.argv) <= 1:
      sys.exit("Missing Command Line Argument")
-elif not code.isdigit():
+elif code != float:
      sys.exit("Command-line argument is not a number")
 
 amount = code * 38761.0833
