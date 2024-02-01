@@ -18,7 +18,7 @@ try:
      amount = float(sys.argv[1]) * 38761.0833
      print(f"${amount:,.4f}")
 except ValueError:
-     print("Command-line argument is not a number")
+     sys.exit("Command-line argument is not a number")
 
 
 
