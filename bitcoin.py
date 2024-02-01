@@ -26,6 +26,8 @@ def req_coin()
      req = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
      data = req.json()
      usd = data["bpi"]["USD"]["rate_float"]
+     return usd
+
 
 
 
