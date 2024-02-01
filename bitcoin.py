@@ -11,25 +11,27 @@ from sys import argv
 # #     print(gcoin)
 # #     print(f"${result:,.4f}")
 
-def main ()
+
+def main():
+     value = req_coin()
      if len(sys.argv) <= 1:
           sys.exit("Missing Command Line Argument")
 
      try:
-          amount = float(sys.argv[1]) * usd
+          amount = float(sys.argv[1]) * value
           print(f"${amount:,.4f}")
      except ValueError:
           sys.exit("Command-line argument is not a number")
 
 
-def req_coin()
+def req_coin():
      req = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
      data = req.json()
      usd = data["bpi"]["USD"]["rate_float"]
      return usd
 
 
-
+main()
 
 
 
