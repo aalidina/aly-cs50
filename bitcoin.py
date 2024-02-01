@@ -5,7 +5,7 @@ import json
 from sys import argv
 
 
-req = request.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+req = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 data = req.json()
 usd = data["bpi"]["USD"]["rate_float"]
 print(data)
