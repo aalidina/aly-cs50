@@ -12,7 +12,7 @@ from sys import argv
 # #     print(f"${result:,.4f}")
 
 
-def get_coin():
+def main():
      value = req_coin()
      if len(sys.argv) <= 1:
           sys.exit("Missing Command Line Argument")
