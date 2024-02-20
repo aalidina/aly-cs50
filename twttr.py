@@ -7,11 +7,12 @@ def shorten(word):
     input1 = input("Input: ").lower()
     for c in input1:
         if c in vowels:
-            print("", end="")
+            return ""
+            # print("", end="")
         else:
-            print(c, end="")
-    return " "
-    # print(" ")
+            return c
+            # print(c, end="")
+    print(" ")
 
 
     # vowels = ["a","e","i","o","u"]
