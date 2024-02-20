@@ -5,4 +5,4 @@ def main():
 
 
 def test_shorten():
-    
+    if input
