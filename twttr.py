@@ -5,7 +5,7 @@ def main():
 
 def shorten(word):
     vowels = ["a","e","i","o","u"]
-    for c in input:
+    for c in input1:
         if c in vowels:
             print("", end="")
         else:
