@@ -1,7 +1,7 @@
 
 def main():
-    input1 = input("Input: ").lower()
-    shorten(input1)
+    text = input("Input: ").lower()
+    shorten(text)
 
 def shorten(word):
     output = ""
