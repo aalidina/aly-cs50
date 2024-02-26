@@ -9,7 +9,7 @@ def shorten(word):
 
     for c in word:
         if c in vowels:
-            if not i in l[:]:
+            if not i in vowels[:]:
                     output += i
             return output
         else:
