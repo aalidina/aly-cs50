@@ -10,7 +10,9 @@ def shorten(word):
     for c in word:
         if not c in vowels[:]:
             output += c
+            print(output)
     return output
+
 
 
 
