@@ -1,34 +1,18 @@
 
-# def main():
-#     text = input("Input: ").lower()
-#     shorten(text)
-
-# def shorten(word):
-#     output = ""
-#     vowels = ["a","e","i","o","u"]
-
-#     for c in word:
-#         print(c)
-#         if not c in vowels[:]:
-#             output += c
-#     return output
-
 def main():
-    text = input("Input: ")
+    text = input("Input: ").lower()
     shorten(text)
 
 def shorten(word):
-    #text = input("Input: ")
-    l = ["a", "A", "E", "e", "I", "i", "O", "o", "U", "u"]
-    out = ""
+    output = ""
+    vowels = ["a","e","i","o","u"]
 
-    for i in word:
-            if not i in l[:]:
-                    out += i
-    return out
+    for c in word:
+        if not c in vowels[:]:
+            output += c
+    return output
 
-if __name__ == "__main__":
-    main()
+
 
     # vowels = ["a","e","i","o","u"]
     # input = input("Input: ")
