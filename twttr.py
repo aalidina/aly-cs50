@@ -1,16 +1,17 @@
 
 def main():
-    shorten(input)
+    input1 = input("Input: ").lower()
+    shorten(input1)
 
 def shorten(word):
-    list = []
+    output = ""
     vowels = ["a","e","i","o","u"]
-    input1 = input("Input: ").lower()
+
     for c in input1:
         if c in vowels:
-            
-            return ""
-            # print("", end="")
+            if not i in l[:]:
+                    output += i
+            return output
         else:
             return c
             # print(c, end="")
