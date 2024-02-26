@@ -10,11 +10,8 @@ def shorten(word):
     for c in word:
         if not c in vowels[:]:
             output += c
-        return output
-#     else:
-#         return c
-#         # print(c, end="")
-# print(" ")
+    return output
+
 
 
     # vowels = ["a","e","i","o","u"]
