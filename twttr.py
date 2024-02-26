@@ -7,7 +7,7 @@ def shorten(word):
     output = ""
     vowels = ["a","e","i","o","u"]
 
-    for c in input1:
+    for c in word:
         if c in vowels:
             if not i in l[:]:
                     output += i
