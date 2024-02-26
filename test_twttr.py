@@ -1,8 +1,12 @@
 from twttr import shorten
 
 def main():
-    test_shorten()
+    test_twttr()
 
 
-def test_shorten():
-    if input
+def test_twttr():
+    assert shorten("word") == "wrd"
+    assert shorten("WORD") == "WRD"
+    assert shorten("WorD") == "WrD"
+    assert shorten("1234") == "1234"
+    assert shorten(".!?,") == ".!?,"
