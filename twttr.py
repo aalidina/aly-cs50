@@ -3,10 +3,12 @@ def main():
     shorten(input)
 
 def shorten(word):
+    list = []
     vowels = ["a","e","i","o","u"]
     input1 = input("Input: ").lower()
     for c in input1:
         if c in vowels:
+            
             return ""
             # print("", end="")
         else:
