@@ -1,5 +1,7 @@
 from bank import value
 
+def main():
+
 greeting = (input("Greeting: ")).lower().strip()
 if greeting.startswith("hello"):
     print("$0")
