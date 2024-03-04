@@ -1,7 +1,8 @@
 
 def main():
     greeting = (input("Greeting: ")).lower().strip()
-    value(greeting)
+    print(f"${value(greet)}")
+
 
 def value(greeting):
     # greeting = (input("Greeting: ")).lower().strip()
