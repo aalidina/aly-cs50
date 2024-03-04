@@ -5,7 +5,11 @@ def main():
 
 
 def test_twttr():
-    assert value("hello") == "$0"
-    assert value("Hello, 20") == "$20"
-    assert value("Hello, 100") == "$100"
-    assert value("Cat, 100") == "$100"
+    assert value("hello world") == 0
+    assert value("HELLO WORLD") == 0
+    assert value("hi world") == 20
+    assert value("HI WORLD") == 20
+    assert value("wassup world") == 100
+    assert value("WASSUP WORLD") == 100
+
+
