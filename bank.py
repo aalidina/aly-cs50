@@ -1,6 +1,6 @@
 
 def main():
-    value(greeting)
+    value(text)
 
 def value(greeting):
     greeting = (input("Greeting: ")).lower().strip()
