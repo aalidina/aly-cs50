@@ -5,7 +5,7 @@ def main():
 
 
 def test_is_valid():
-    assert is_valid("hello world") == 0
+    assert is_valid(False) < 2 or < 6
     assert is_valid("HELLO WORLD") == 0
     assert is_valid("hi world") == 20
     assert is_valid("HI WORLD") == 20
