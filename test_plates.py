@@ -4,7 +4,7 @@ def main():
     value()
 
 
-def test_plates():
+def test_is_valid():
     assert value("hello world") == 0
     assert value("HELLO WORLD") == 0
     assert value("hi world") == 20
