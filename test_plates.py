@@ -1,4 +1,4 @@
-from plates import value
+from plates import is_valid
 
 def main():
     value()
