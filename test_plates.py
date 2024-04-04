@@ -10,6 +10,7 @@ def test_is_valid():
     assert is_valid("50") == False
     assert is_valid("H") == False
 
+    4\ x
     # “… vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.”
     assert is_valid("OUTATIME") == False
 
